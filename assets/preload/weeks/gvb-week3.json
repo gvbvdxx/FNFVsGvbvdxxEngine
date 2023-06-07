@@ -1,0 +1,57 @@
+{
+	"songs": [
+		[
+			"aibosing",
+			"aiborecognitionreal",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"gvbvdxx-games",
+			"gvbvdxxy",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"pipe-bomb",
+			"gvbvdxxy",
+			[
+				146,
+				113,
+				253
+			]
+		],
+		[
+			"clubgvbvdxx",
+			"gvbvdxxy",
+			[
+				146,
+				113,
+				253
+			]
+		]
+	],
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekCharacters": [
+		"gvbvdxxystorychar",
+		"bf",
+		"gf"
+	],
+	"storyName": "Gvbvdxxy week",
+	"weekName": "Gvbvdxxy Week",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"hideStoryMode": false,
+	"weekBefore": "tutorial",
+	"startUnlocked": true
+}
