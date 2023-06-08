@@ -22,12 +22,13 @@ enum Alignment
 class Alphabet extends FlxSpriteGroup
 {
 	public var text(default, set):String;
-
+	public var TimeCosSelected:Float = 0;
 	public var bold:Bool = false;
 	public var letters:Array<AlphaCharacter> = [];
 
 	public var isMenuItem:Bool = false;
 	public var targetY:Int = 0;
+	public var targetX:Int = 0;
 	public var changeX:Bool = true;
 	public var changeY:Bool = true;
 
@@ -36,8 +37,8 @@ class Alphabet extends FlxSpriteGroup
 	public var scaleY(default, set):Float = 1;
 	public var rows:Int = 0;
 
-	public var distancePerItem:FlxPoint = new FlxPoint(20, 120);
-	public var startPosition:FlxPoint = new FlxPoint(0, 0); //for the calculations
+	public var distancePerItem:FlxPoint = new FlxPoint(350, 120);
+	public var startPosition:FlxPoint = new FlxPoint(120, 0); //for the calculations
 
 	public function new(x:Float, y:Float, text:String = "", ?bold:Bool = true)
 	{
@@ -158,11 +159,17 @@ class Alphabet extends FlxSpriteGroup
 
 	override function update(elapsed:Float)
 	{
+		TimeCosSelected += 1;
 		if (isMenuItem)
 		{
 			var lerpVal:Float = CoolUtil.boundTo(elapsed * 9.6, 0, 1);
+			var smoothSelectX:Float = 0;
+			if (Math.round(targetY) == 0)
+			{
+				//smoothSelectX = Math.abs(Math.cos(TimeCosSelected*3)*0);
+			}
 			if(changeX)
-				x = FlxMath.lerp(x, (targetY * distancePerItem.x) + startPosition.x, lerpVal);
+				x = FlxMath.lerp(x - (smoothSelectX), ((Math.abs(targetY)*-1) * distancePerItem.x) + 350, lerpVal) + (smoothSelectX);
 			if(changeY)
 				y = FlxMath.lerp(y, (targetY * 1.3 * distancePerItem.y) + startPosition.y, lerpVal);
 		}

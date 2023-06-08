@@ -128,7 +128,7 @@ class MainMenuState extends MusicBeatState
 			menuItem.updateHitbox();
 		}
 
-		FlxG.camera.follow(camFollowPos, null, 1);
+		FlxG.camera.follow(camFollowPos, FlxCameraFollowStyle.LOCKON);
 		
 		var versionShit:FlxText = new FlxText(12, FlxG.height - 64, 0, "Fnf vs gvbvdxx engine.", 32);
 		versionShit.scrollFactor.set();
@@ -174,7 +174,7 @@ class MainMenuState extends MusicBeatState
 			if(FreeplayState.vocals != null) FreeplayState.vocals.volume += 0.5 * elapsed;
 		}
 
-		var lerpVal:Float = CoolUtil.boundTo(elapsed * 7.5, 0, 1);
+		var lerpVal:Float = CoolUtil.boundTo(elapsed * 10, 0, 0.1);
 		camFollowPos.setPosition(FlxMath.lerp(camFollowPos.x, camFollow.x, lerpVal), FlxMath.lerp(camFollowPos.y, camFollow.y, lerpVal));
 
 		if (!selectedSomethin)

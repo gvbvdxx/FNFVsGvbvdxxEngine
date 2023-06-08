@@ -261,7 +261,8 @@ class FreeplayState extends MusicBeatState
 
 		scoreText.text = 'Your best score: ' + lerpScore + ' (' + ratingSplit.join('.') + '%)';
 		positionHighscore();
-
+		
+		
 		var upP = controls.UI_UP_P;
 		var downP = controls.UI_DOWN_P;
 		var accepted = controls.ACCEPT;
@@ -460,7 +461,7 @@ class FreeplayState extends MusicBeatState
 
 		for (i in 0...iconArray.length)
 		{
-			iconArray[i].alpha = 0.6;
+			iconArray[i].alpha = 0;
 		}
 
 		iconArray[curSelected].alpha = 1;
@@ -470,11 +471,11 @@ class FreeplayState extends MusicBeatState
 			item.targetY = bullShit - curSelected;
 			bullShit++;
 
-			item.alpha = 0.6;
+			item.alpha = 0.3;
 			// item.setGraphicSize(Std.int(item.width * 0.8));
-
 			if (item.targetY == 0)
 			{
+				item.targetX = 1000;
 				item.alpha = 1;
 				// item.setGraphicSize(Std.int(item.width));
 			}
