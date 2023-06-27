@@ -25,6 +25,7 @@ using StringTools;
 
 class MainMenuState extends MusicBeatState
 {
+	var frameCount:Int = 0;
 	public static var psychEngineVersion:String = '0.6.3'; //This is also used for Discord RPC
 	public static var curSelected:Int = 0;
 
@@ -168,6 +169,17 @@ class MainMenuState extends MusicBeatState
 
 	override function update(elapsed:Float)
 	{
+		frameCount += 1;
+		menuItems.forEach(function(spr:FlxSprite)
+		{
+			if (spr.ID == curSelected)
+			{
+				spr.angle = (Math.cos(frameCount/7)*5);
+				spr.centerOffsets();
+			} else {
+				spr.angle = 0;
+			}
+		});
 		if (FlxG.sound.music.volume < 0.8)
 		{
 			FlxG.sound.music.volume += 0.5 * FlxG.elapsed;
@@ -179,6 +191,12 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
+			
+		
+
+
+
+			
 			if (controls.UI_UP_P)
 			{
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -270,6 +288,7 @@ class MainMenuState extends MusicBeatState
 
 	function changeItem(huh:Int = 0)
 	{
+		
 		curSelected += huh;
 
 		if (curSelected >= menuItems.length)

@@ -3099,11 +3099,13 @@ class PlayState extends MusicBeatState
 		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		var multy:Float = FlxMath.lerp(1, iconP1.scale.y, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		iconP1.scale.set(mult, multy);
+		iconP1.angle += (0-iconP1.angle)/6;
 		iconP1.updateHitbox();
 
 		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		var multy:Float = FlxMath.lerp(1, iconP2.scale.y, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		iconP2.scale.set(mult, multy);
+		iconP2.angle += (0-iconP2.angle)/6;
 		iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
@@ -5066,7 +5068,7 @@ class PlayState extends MusicBeatState
 
 	var lightningStrikeBeat:Int = 0;
 	var lightningOffset:Int = 8;
-
+	var iconBeatThingy:Bool = false;
 	var lastBeatHit:Int = -1;
 
 	override function beatHit()
@@ -5082,9 +5084,21 @@ class PlayState extends MusicBeatState
 		{
 			notes.sort(FlxSort.byY, ClientPrefs.downScroll ? FlxSort.ASCENDING : FlxSort.DESCENDING);
 		}
-
-		iconP1.scale.set(1.28, 0.6);
-		iconP2.scale.set(1.28, 0.6);
+		if (iconBeatThingy) 
+		{
+			iconBeatThingy = false;
+			iconP1.scale.set(1, 1.8);
+			iconP1.angle = 25;
+			iconP2.scale.set(1, 0.3);
+			iconP2.angle = -25;
+		} else
+		{
+			iconBeatThingy = true;
+			iconP1.scale.set(1, 0.3);
+			iconP1.angle = -25;
+			iconP2.scale.set(1, 1.8);
+			iconP2.angle = 25;
+		}
 
 		iconP1.updateHitbox();
 		iconP2.updateHitbox();
