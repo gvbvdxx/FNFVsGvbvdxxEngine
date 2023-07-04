@@ -1,12 +1,3 @@
-// This is completely re-typed out, I did this so I didn't just copy and paste so that HOPEFULLY it works better and doesn't need that many changes.
-
-/* 
-IF DOWNLOADING FROM THE CharMenuFiles Folder:
-DO NOT FORGET TO RENAME THIS FILE TO "CharMenu.hx"
-They are only labeled this way for specific engines 
-(if it is necessary to make it for an engine)
-*/
-
 package;
 
 import Section.SwagSection;
@@ -38,17 +29,23 @@ import StringTools;
 import FreeplayState;
 
 class CharMenu extends MusicBeatState{
+    var iconMULT:Int = Std.int(0.8);
     // Selectable Character Variables
-    var selectableCharacters:Array<String> = ['bf', 'MiniScratchGamer']; // Currently Selectable characters
-    var selectableCharactersNames:Array<String> = ['Default Character', 'Playable Mini Scratch Gamer (WIP)']; // Characters names
-    var selectableCharactersColors:Array<FlxColor> = [0xFF00ABC5, 0xFF00ABC5]; // The colors used for the background
-    var selectableCharactersOffsets:Array<Array<Int>> = [[10, 10], [35, 10]]; // [x, y]
+    var selectableCharacters:Array<String> = ['bf', 'MiniScratchGamer', 'playable-flipnote']; // Currently Selectable characters
+    var selectableCharactersNames:Array<String> = ['Default Character', 'Playable Mini Scratch Gamer (WIP)', 'Requested By johanmartinez']; // Characters names
+    var selectableCharactersColors:Array<FlxColor> = [0xFF00ABC5, 0xFF00ABC5, 0xFF00ABC5]; // The colors used for the background
+    //too lazy to grab a calculator
+    var selectableCharactersOffsets:Array<Array<Int>> = [
+        [10, 10],
+        [90, 50],
+        [86, 120]
+    ]; // [x, y]
     
     // Unlockable characters
     var unlockableChars:Array<String> = []; // Unlockable Characters
     var unlockableCharsNames:Array<String> = []; // Names of unlockable Characters
-    var unlockableCharsColors:Array<FlxColor> = [0xFF00DD0F, 0xFF6C6C6C]; // The colors used for the background
-    var unlockableCharactersOffsets:Array<Array<Int>> = [[-5, -30], [25, 0]]; // [x, y]
+    var unlockableCharsColors:Array<FlxColor> = []; // The colors used for the background
+    var unlockableCharactersOffsets:Array<Array<Int>> = []; // [x, y]
     
     // This is the characters that actually appear on the menu
     var unlockedCharacters:Array<String> = [];
@@ -64,10 +61,7 @@ class CharMenu extends MusicBeatState{
     ]
     */
     var achievementUnlocks:Array<Array<String>> = [
-        ["week7_nomiss", "1"], 
-        ["week3_nomiss", "0"]
     ];
-
     // Folder locations
     var backgroundFolder:String = 'background'; // The location of the folder storing the characters backgrounds
     var fontFolder:String = 'assets/fonts/'; // Please don't change unless font folder changes, leads to the fonts folder
@@ -171,7 +165,7 @@ class CharMenu extends MusicBeatState{
         bgOverlay.updateHitbox();
         bgOverlay.screenCenter();
         bgOverlay.antialiasing = true;
-        add(bgOverlay);
+        //add(bgOverlay);
 
         // Adds the chars to the selection
         for (i in 0...unlockedCharacters.length)
@@ -188,7 +182,12 @@ class CharMenu extends MusicBeatState{
             //MiniScratchGamer Scaling
             if (i == 1)
             {
-                characterImage.scale.set(6.1/4.6, 6.1/4.6);
+                characterImage.scale.set(1.7*0.8, 1.7*0.8);
+            }
+            //playable-flipnote Scaling
+            if (i == 2)
+            {
+                characterImage.scale.set(2.5*0.8, 2.5*0.8);
             }
             characterImage.screenCenter(XY);
             imageArray.push(characterImage);

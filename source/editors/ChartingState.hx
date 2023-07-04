@@ -1585,7 +1585,10 @@ class ChartingState extends MusicBeatState
 		} else {
 			dummyArrow.visible = false;
 		}
-
+		if (FlxG.keys.pressed.F) {
+			FlxG.log.add('added note');
+			addNote();
+		}
 		if (FlxG.mouse.justPressed)
 		{
 			if (FlxG.mouse.overlaps(curRenderedNotes))
