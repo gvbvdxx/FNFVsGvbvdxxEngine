@@ -1,76 +1,100 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				95,
 				3
 			],
-			"loop": false,
-			"fps": 25,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "jason left"
+			"fps": 25,
+			"name": "jason left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				22,
 				0
 			],
-			"loop": false,
-			"fps": 25,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "jason right"
+			"fps": 25,
+			"name": "jason right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				61,
 				96
 			],
-			"loop": false,
-			"fps": 25,
 			"anim": "singUP",
-			"indices": [],
-			"name": "jason up"
+			"fps": 25,
+			"name": "jason up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				97,
 				-5
 			],
-			"loop": false,
-			"fps": 25,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "jason down"
-		},
-		{
-			"offsets": [
-				11,
-				90
-			],
-			"loop": false,
 			"fps": 25,
-			"anim": "yay",
-			"indices": [],
-			"name": "jason yay"
+			"name": "jason down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-61,
 				2
 			],
-			"loop": false,
-			"fps": 13,
 			"anim": "idle",
+			"fps": 13,
+			"name": "jason idle",
 			"indices": [
 				0,
 				1,
 				2,
 				3,
 				0
+			]
+		},
+		{
+			"offsets": [
+				11,
+				90
 			],
-			"name": "jason idle"
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				2,
+				1,
+				0,
+				1,
+				2,
+				3,
+				2,
+				1,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 25,
+			"anim": "yay",
+			"loop": false,
+			"name": "jason yay"
 		}
 	],
 	"no_antialiasing": false,

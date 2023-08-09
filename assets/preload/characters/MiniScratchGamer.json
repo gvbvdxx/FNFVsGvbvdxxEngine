@@ -1,103 +1,103 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "idle",
-			"fps": 15,
-			"name": "MiniScratchGamer Idle",
-			"indices": []
+			"indices": [],
+			"name": "MiniScratchGamer Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-78,
-				-8
-			],
-			"anim": "singLEFT",
-			"fps": 15,
-			"name": "MiniScratchGamer Left",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				-58,
+				-57,
 				-52
 			],
+			"loop": false,
+			"fps": 15,
 			"anim": "singDOWN",
-			"fps": 15,
-			"name": "MiniScratchGamer Down",
-			"indices": []
+			"indices": [],
+			"name": "MiniScratchGamer Down"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				74,
-				-11
-			],
-			"anim": "singRIGHT",
-			"fps": 15,
-			"name": "MiniScratchGamer Right",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				-19,
 				15
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 15,
-			"name": "MiniScratchGamer Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "MiniScratchGamer Up"
 		},
 		{
-			"loop": false,
-			"offsets": [
-				-72,
-				0
-			],
-			"anim": "singUPmiss",
-			"fps": 23,
-			"name": "MiniScratchGamer Miss",
-			"indices": []
-		},
-		{
-			"loop": false,
 			"offsets": [
 				-71,
 				0
 			],
+			"loop": false,
+			"fps": 23,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "MiniScratchGamer Miss"
+		},
+		{
+			"offsets": [
+				-71,
+				0
+			],
+			"loop": false,
+			"fps": 23,
 			"anim": "singDOWNmiss",
-			"fps": 23,
-			"name": "MiniScratchGamer Miss",
-			"indices": []
+			"indices": [],
+			"name": "MiniScratchGamer Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-72,
+				-71,
 				0
 			],
+			"loop": false,
+			"fps": 23,
 			"anim": "singLEFTmiss",
-			"fps": 23,
-			"name": "MiniScratchGamer Miss",
-			"indices": []
+			"indices": [],
+			"name": "MiniScratchGamer Miss"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-72,
 				0
 			],
-			"anim": "singRIGHTmiss",
+			"loop": false,
 			"fps": 23,
-			"name": "MiniScratchGamer Miss",
-			"indices": []
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "MiniScratchGamer Miss"
+		},
+		{
+			"offsets": [
+				83,
+				-9
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "MiniScratchGamer Right"
+		},
+		{
+			"offsets": [
+				-82,
+				-11
+			],
+			"indices": [],
+			"fps": 15,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "MiniScratchGamer Left"
 		}
 	],
 	"no_antialiasing": false,

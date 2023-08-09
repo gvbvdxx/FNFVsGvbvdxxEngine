@@ -1,12 +1,27 @@
 {
+	"storyName": "Gvbvdxxy week",
+	"hideFreeplay": false,
+	"weekBackground": "gvbvdxx",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"aibosing",
 			"aiborecognitionreal",
 			[
-				146,
-				113,
-				253
+				100,
+				100,
+				100
 			]
 		],
 		[
@@ -14,8 +29,8 @@
 			"gvbvdxxy",
 			[
 				146,
-				113,
-				253
+				0,
+				0
 			]
 		],
 		[
@@ -23,8 +38,8 @@
 			"gvbvdxxy",
 			[
 				146,
-				113,
-				253
+				0,
+				0
 			]
 		],
 		[
@@ -32,26 +47,11 @@
 			"gvbvdxxy",
 			[
 				146,
-				113,
-				253
+				0,
+				0
 			]
 		]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"weekCharacters": [
-		"gvbvdxxystorychar",
-		"bf",
-		"gf"
-	],
-	"storyName": "Gvbvdxxy week",
-	"weekName": "Gvbvdxxy Week",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "Gvbvdxxy Week"
 }

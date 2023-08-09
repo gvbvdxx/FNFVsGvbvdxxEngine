@@ -1,57 +1,57 @@
 {
+	"storyName": "Make Me Sing!",
+	"hideFreeplay": false,
+	"weekBackground": "makemesing",
+	"weekBefore": "tutorial",
+	"freeplayColor": [
+		146,
+		113,
+		253
+	],
+	"startUnlocked": true,
+	"weekCharacters": [
+		"",
+		"",
+		""
+	],
 	"songs": [
 		[
 			"uglysing",
 			"sing-jason",
 			[
-				146,
-				113,
-				253
+				150,
+				138,
+				87
 			]
 		],
 		[
 			"obsession",
 			"sing-jason",
 			[
-				146,
-				113,
-				253
+				150,
+				138,
+				87
 			]
 		],
 		[
 			"gogvbvdxx",
 			"sing-jason",
 			[
-				146,
-				113,
-				253
+				150,
+				138,
+				87
 			]
 		],
 		[
 			"singingpro",
 			"sing-jason",
 			[
-				146,
-				113,
-				253
+				150,
+				138,
+				87
 			]
 		]
 	],
-	"hideFreeplay": false,
-	"weekBackground": "stage",
-	"weekCharacters": [
-		"sing-jason-menu",
-		"bf",
-		"gf"
-	],
-	"storyName": "Make Me Sing!",
-	"weekName": "Make Me Sing!",
-	"freeplayColor": [
-		146,
-		113,
-		253
-	],
 	"hideStoryMode": false,
-	"weekBefore": "tutorial",
-	"startUnlocked": true
+	"weekName": "Make Me Sing!"
 }

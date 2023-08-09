@@ -12,7 +12,7 @@
 
 	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
 		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
-	<!-- <app preloader="Preloader" resizable="true" /> -->
+	<app preloader="Preloader" resizable="true" />
 	<app preloader="flixel.system.FlxPreloader" />
 
 	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2-->
@@ -65,10 +65,10 @@
 
 	<!-- <define name="PRELOAD_ALL" /> -->
 	<define name="PRELOAD_ALL" unless="web" />
+
+	<define name="NO_PRELOAD_ALL" if="web" />
 	
 	
-	<!-- WEBSITE BUILD FIX-->
-	<define name="PRELOAD_ALL" if="web" />
 	
 	
 	<define name="NO_PRELOAD_ALL" unless="PRELOAD_ALL"/>
@@ -88,7 +88,7 @@
 	</section>
 	
 	<section if="NO_PRELOAD_ALL">
-		<library name="songs"         preload="false" />
+		<library name="songs"         preload="true" />
 		<library name="shared"        preload="false" />
 		<library name="week2"         preload="false" />
 		<library name="week3"         preload="false" />
@@ -99,7 +99,7 @@
 	</section>
 	
 	<assets path="assets/videos"        library="videos"        if="VIDEOS_ALLOWED"/>
-	<assets path="assets/songs"         library="songs" embed="true"         exclude="*.ogg" if="web"/>
+	<assets path="assets/songs"         library="songs"         exclude="*.ogg" if="web"/>
 	<assets path="assets/songs"         library="songs"         exclude="*.mp3" unless="web"/>
 	<assets path="assets/shared"        library="shared"        exclude="*.ogg" if="web"/>
 	<assets path="assets/shared"        library="shared"        exclude="*.mp3" unless="web"/>

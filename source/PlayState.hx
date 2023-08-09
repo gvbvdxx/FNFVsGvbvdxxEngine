@@ -3098,21 +3098,26 @@ class PlayState extends MusicBeatState
 
 		var mult:Float = FlxMath.lerp(1, iconP1.scale.x, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		var multy:Float = FlxMath.lerp(1, iconP1.scale.y, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
-		iconP1.scale.set(mult, multy);
-		iconP1.angle += (0-iconP1.angle)/6;
+		iconP1.scale.set(mult,multy);
+		iconP1.angle += ((0-iconP1.angle)/7) * playbackRate;
 		iconP1.updateHitbox();
 
 		var mult:Float = FlxMath.lerp(1, iconP2.scale.x, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
 		var multy:Float = FlxMath.lerp(1, iconP2.scale.y, CoolUtil.boundTo(1 - (elapsed * 9 * playbackRate), 0, 1));
-		iconP2.scale.set(mult, multy);
-		iconP2.angle += (0-iconP2.angle)/6;
+		
+		iconP2.scale.set(mult,multy);
+		iconP2.angle += ((0-iconP2.angle)/7) * playbackRate;
 		iconP2.updateHitbox();
 
 		var iconOffset:Int = 26;
 
 		iconP1.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) + (150 * iconP1.scale.x - 150) / 2 - iconOffset;
 		iconP2.x = healthBar.x + (healthBar.width * (FlxMath.remapToRange(healthBar.percent, 0, 100, 100, 0) * 0.01)) - (150 * iconP2.scale.x) / 2 - iconOffset * 2;
-
+		
+		
+		iconP1.y = (healthBar.y - 149) - iconP1.scale.y / -0.013;
+		iconP2.y = (healthBar.y - 149) - iconP2.scale.y / -0.013;
+		
 		if (health > 2)
 			health = 2;
 
@@ -5087,17 +5092,17 @@ class PlayState extends MusicBeatState
 		if (iconBeatThingy) 
 		{
 			iconBeatThingy = false;
-			iconP1.scale.set(1, 1.8);
-			iconP1.angle = 25;
-			iconP2.scale.set(1, 0.3);
-			iconP2.angle = -25;
+			iconP1.scale.set(1.2, 0.7);
+			iconP1.angle = -16;
+			iconP2.scale.set(1.2, 1.3);
+			iconP2.angle = 16;
 		} else
 		{
 			iconBeatThingy = true;
-			iconP1.scale.set(1, 0.3);
-			iconP1.angle = -25;
-			iconP2.scale.set(1, 1.8);
-			iconP2.angle = 25;
+			iconP1.scale.set(1.2, 1.3);
+			iconP1.angle = 16;
+			iconP2.scale.set(1.2, 0.7);
+			iconP2.angle = -16;
 		}
 
 		iconP1.updateHitbox();
