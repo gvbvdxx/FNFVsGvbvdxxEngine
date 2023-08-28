@@ -4,11 +4,11 @@ process.stdin.on("data",(data) =>{
 	ls.stdin.write(data);
 })
 ls.stdout.on("data", data => {
-    process.stdout.write(`${data}`);
+    process.stdout.write(data);
 });
 
 ls.stderr.on("data", data => {
-    process.stdout.write(`${data}`);
+    process.stdout.write(data);
 });
 
 ls.on('error', (error) => {
