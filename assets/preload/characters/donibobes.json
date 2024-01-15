@@ -1,58 +1,58 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-4,
 				-37
 			],
-			"loop": false,
-			"fps": 35,
 			"anim": "idle",
-			"indices": [],
-			"name": "donibobes idle"
+			"fps": 35,
+			"name": "donibobes idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-6,
+				-38
+			],
+			"anim": "singDOWN",
+			"fps": 50,
+			"name": "donibobes down",
+			"indices": []
 		},
 		{
 			"offsets": [
 				-4,
 				-37
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 50,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "donibobes right"
+			"loop": false,
+			"name": "donibobes left"
 		},
 		{
 			"offsets": [
 				-2,
 				-38
 			],
-			"loop": false,
+			"indices": [],
 			"fps": 50,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "donibobes left"
-		},
-		{
-			"offsets": [
-				1,
-				-38
-			],
 			"loop": false,
-			"fps": 50,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "donibobes down"
+			"name": "donibobes right"
 		},
 		{
 			"offsets": [
 				-3,
 				-36
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singUP",
 			"indices": [],
+			"fps": 50,
+			"anim": "singUP",
+			"loop": false,
 			"name": "donibobes up"
 		}
 	],

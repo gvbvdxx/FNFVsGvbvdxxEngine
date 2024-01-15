@@ -1588,15 +1588,12 @@ class ChartingState extends MusicBeatState
 			dummyArrow.visible = false;
 		}
 		if (FlxG.keys.pressed.F) {
-			if (!(FlxG.mouse.overlaps(curRenderedNotes))) {
-				if (FlxG.mouse.x > gridBG.x
-					&& FlxG.mouse.x < gridBG.x + gridBG.width
-					&& FlxG.mouse.y > gridBG.y
-					&& FlxG.mouse.y < gridBG.y + (GRID_SIZE * getSectionBeats() * 4) * zoomList[curZoom])
-				{
-					FlxG.log.add('added note');
-					addNote();
-				}
+			if (FlxG.mouse.x > gridBG.x
+				&& FlxG.mouse.x < gridBG.x + gridBG.width
+				&& FlxG.mouse.y > gridBG.y
+				&& FlxG.mouse.y < gridBG.y + (GRID_SIZE * getSectionBeats() * 4) * zoomList[curZoom])
+			{
+				addNote();
 			}
 		}
 		if (FlxG.mouse.justPressed)
