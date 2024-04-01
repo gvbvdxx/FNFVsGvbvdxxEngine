@@ -1,0 +1,122 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-3,
+				3
+			],
+			"loop": false,
+			"fps": 55,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "bfcraft left"
+		},
+		{
+			"offsets": [
+				-3,
+				3
+			],
+			"loop": false,
+			"fps": 55,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "bfcraft down"
+		},
+		{
+			"offsets": [
+				-3,
+				3
+			],
+			"loop": false,
+			"fps": 55,
+			"anim": "singUP",
+			"indices": [],
+			"name": "bfcraft up"
+		},
+		{
+			"offsets": [
+				-3,
+				3
+			],
+			"loop": false,
+			"fps": 55,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "bfcraft right"
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "singLEFTmiss",
+			"fps": 55,
+			"name": "bfcraft missnote",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "singDOWNmiss",
+			"fps": 55,
+			"name": "bfcraft missnote",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				2
+			],
+			"anim": "singUPmiss",
+			"fps": 55,
+			"name": "bfcraft missnote",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				3
+			],
+			"anim": "singRIGHTmiss",
+			"fps": 55,
+			"name": "bfcraft miss",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				5
+			],
+			"anim": "idle",
+			"fps": 60,
+			"name": "bfcraft idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": true,
+	"image": "characters/bfcraft",
+	"position": [
+		150,
+		250
+	],
+	"healthicon": "bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		49,
+		176,
+		209
+	],
+	"camera_position": [
+		670,
+		-420
+	],
+	"sing_duration": 4,
+	"scale": 3.3
+}
