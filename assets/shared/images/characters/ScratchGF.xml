@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="ScratchGF.png">
+	<SubTexture name="idle0000" x="0" y="0" width="865" height="915" frameX="0" frameY="0" frameWidth="865" frameHeight="915" />
+	<SubTexture name="idleleft0000" x="868" y="0" width="865" height="910" frameX="0" frameY="-5.509717773968248" frameWidth="865" frameHeight="910" />
+	<SubTexture name="idleleft0001" x="1736" y="0" width="865" height="895" frameX="0" frameY="-21.930087136196477" frameWidth="865" frameHeight="895" />
+	<SubTexture name="idleleft0002" x="2604" y="0" width="865" height="915" frameX="0" frameY="-4.434306938660768" frameWidth="865" frameHeight="915" />
+	<SubTexture name="idleleft0003" x="3472" y="0" width="865" height="915" frameX="0" frameY="-4.060410847697256" frameWidth="865" frameHeight="915" />
+	<SubTexture name="idleright0000" x="4340" y="0" width="865" height="865" frameX="0" frameY="-52.63788343374628" frameWidth="865" frameHeight="865" />
+	<SubTexture name="idleright0001" x="5208" y="0" width="865" height="865" frameX="0" frameY="-50.39005784012062" frameWidth="865" frameHeight="865" />
+	<SubTexture name="idleright0002" x="6076" y="0" width="865" height="905" frameX="0" frameY="-12.152288059521794" frameWidth="865" frameHeight="905" />
+	<SubTexture name="idleright0003" x="6944" y="0" width="865" height="915" frameX="0" frameY="-4.7046454882475075" frameWidth="865" frameHeight="915" />
+	<SubTexture name="idlestand0000" x="7812" y="0" width="405" height="610" frameX="-208.52720000000005" frameY="-299.8766561668615" frameWidth="405" frameHeight="610" />
+	<SubTexture name="idleleftstand0000" x="8220" y="0" width="430" height="620" frameX="-175.07615018182264" frameY="-291.20635877133515" frameWidth="430" frameHeight="620" />
+	<SubTexture name="idleleftstand0001" x="0" y="918" width="415" height="610" frameX="-181.38117236667028" frameY="-301.5297452747248" frameWidth="415" frameHeight="610" />
+	<SubTexture name="idleleftstand0002" x="418" y="918" width="395" height="600" frameX="-199.37456648748238" frameY="-311.55979939124586" frameWidth="395" frameHeight="600" />
+	<SubTexture name="idleleftstand0003" x="816" y="918" width="410" height="610" frameX="-199.3745870503065" frameY="-302.7012025224475" frameWidth="410" frameHeight="610" />
+	<SubTexture name="idlerightstand0000" x="1229" y="918" width="435" height="565" frameX="-217.05219066003124" frameY="-348.51217035572205" frameWidth="435" frameHeight="565" />
+	<SubTexture name="idlerightstand0001" x="1667" y="918" width="425" height="580" frameX="-216.02720484052725" frameY="-332.472061518729" frameWidth="425" frameHeight="580" />
+	<SubTexture name="idlerightstand0002" x="2095" y="918" width="410" height="610" frameX="-211.17862416599067" frameY="-300.55819403645523" frameWidth="410" frameHeight="610" />
+	<SubTexture name="idlerightstand0003" x="2508" y="918" width="400" height="610" frameX="-211.55312028528357" frameY="-301.3031568175528" frameWidth="400" frameHeight="610" />
+</TextureAtlas>

@@ -1,3 +1,4 @@
+
 package flixel.system;
 
 import flash.events.Event;

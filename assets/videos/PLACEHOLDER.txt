@@ -1,0 +1,1 @@
+Its just an placeholder so git wont delete the "videos" folder.

@@ -5,7 +5,6 @@ bf-pixel-opponent
 bf-pixel
 bf
 bfcraft
-dad
 derpy
 donibobes
 eibo
@@ -14,6 +13,7 @@ gf-pixel
 gf
 gvbvdxxy
 gvbvdxxyv2
+gvbvdxxyv3
 invis
 jasonnewer-opponent
 jasonnewer-playable
@@ -24,6 +24,8 @@ newjason
 peano-jason
 playable-flipnote
 scatchcat3.0
+scratch-bf
+scratch-gf
 scratchcat
 segt
 segtv2
@@ -34,5 +36,6 @@ SonicDancing
 sponge-tmp
 tail-gf
 TailsDancing
+why-are-you-in-my-files
 zombiedude4712-2
 zombiedude4712

@@ -94,7 +94,20 @@ class ChartingState extends MusicBeatState
 		['Change Character', "Value 1: Character to change (Dad, BF, GF)\nValue 2: New character's name"],
 		['Change Scroll Speed', "Value 1: Scroll Speed Multiplier (1 is default)\nValue 2: Time it takes to change fully in seconds."],
 		['Set Property', "Value 1: Variable name\nValue 2: New value"],
-		['Popup window', "Value 1: Window Name"]
+		['Popup window', "Value 1: Window Name"],
+		['Set Cam Zoom', "Sets Camera Zoom\nValue 1: Cam zoom value\nValue 2: Duration for zoom"],
+		['Tween all StrumLineNotes to angle', "Value 1: Length for tweening angle\nValue 2: Angle to tween to"],
+		['Set modchart', "Value 1: Modchart ID, this has to be a number."],
+		['Flash white', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Flash red', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Flash green', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Flash blue', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Flash yellow', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Flash orange', "Does exactly what you think.\nValue 1: Length of flash time."],
+		['Set Hud Zoom', "Sets the HUD's zoom.\nValue 1: Zoom to set hud to."],
+		['Set Hud Alpha', "Sets the HUD's alpha.\nValue 1: Alpha to set hud to.\nValue 2: Seconds for the alpha transition."],
+		['Enable camera focusing', "Enables the camera movement based on the \"Must Hit Section\".\nThis is default.\nNo values are required!"],
+		['Disables camera focusing', "Disables the camera movement based on the \"Must Hit Section\".\nNo values are required!"]
 	];
 
 	var _file:FileReference;

@@ -2,6 +2,7 @@ bedroom
 gvbvdxx-scratch-game
 labe
 minecraft
+scratch-gui
 stage
 White
 zomebiedude4712-background
