@@ -1,0 +1,97 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 16,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 16,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 16,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-1,
+				8
+			],
+			"anim": "singDOWN",
+			"fps": 16,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				2
+			],
+			"anim": "idle",
+			"fps": 16,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-5,
+				0
+			],
+			"anim": "AAAA",
+			"fps": 1,
+			"name": "AHHH",
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			]
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/gangathon-michael",
+	"position": [
+		10,
+		220
+	],
+	"healthicon": "gangathon-michael",
+	"flip_x": false,
+	"healthbar_colors": [
+		244,
+		214,
+		19
+	],
+	"camera_position": [
+		40,
+		-120
+	],
+	"sing_duration": 6.1,
+	"scale": 0.8
+}

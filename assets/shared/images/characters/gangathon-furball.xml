@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gangathon-furball.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="575" height="665" frameX="0" frameY="0" frameWidth="575" frameHeight="665" />
+	<SubTexture name="Idle0001" x="578" y="0" width="575" height="635" frameX="2.7303092345589164" frameY="-30.39825764278895" frameWidth="575" frameHeight="635" />
+	<SubTexture name="Idle0002" x="1156" y="0" width="575" height="655" frameX="-1.8618389747793174" frameY="-10.261674097894087" frameWidth="575" frameHeight="655" />
+	<SubTexture name="Idle0003" x="1734" y="0" width="575" height="660" frameX="-1.7657432063373335" frameY="-1.5482933459271209" frameWidth="575" frameHeight="660" />
+	<SubTexture name="Idle0004" x="2312" y="0" width="575" height="665" frameX="-0.000009277457166945169" frameY="-0.000023430144793223917" frameWidth="575" frameHeight="665" />
+	<SubTexture name="AAAA0000" x="2890" y="0" width="575" height="765" frameX="-0.00004355491398655431" frameY="99.39822343014491" frameWidth="575" frameHeight="765" />
+	<SubTexture name="Right0000" x="3468" y="0" width="590" height="680" frameX="-52.23999995905942" frameY="14.088448531128108" frameWidth="590" frameHeight="680" />
+	<SubTexture name="Right0001" x="4061" y="0" width="580" height="665" frameX="-31.407032308988647" frameY="1.2248942374274918" frameWidth="580" frameHeight="665" />
+	<SubTexture name="Right0002" x="4644" y="0" width="580" height="665" frameX="-18.09907321658997" frameY="1.2248931892481352" frameWidth="580" frameHeight="665" />
+	<SubTexture name="Left0000" x="5227" y="0" width="580" height="655" frameX="46.40508427745715" frameY="-6.729847835216489" frameWidth="580" frameHeight="655" />
+	<SubTexture name="Left0001" x="5810" y="0" width="575" height="660" frameX="26.298209277457687" frameY="-4.4321612867652505" frameWidth="575" frameHeight="660" />
+	<SubTexture name="Left0002" x="0" y="768" width="575" height="660" frameX="18.313420084051728" frameY="-4.432164525735303" frameWidth="575" frameHeight="660" />
+	<SubTexture name="Down0000" x="578" y="768" width="595" height="615" frameX="39.37052777211122" frameY="-48.90558005193945" frameWidth="595" frameHeight="615" />
+	<SubTexture name="Down0001" x="1176" y="768" width="580" height="645" frameX="25.38738096744794" frameY="-19.16998494076431" frameWidth="580" frameHeight="645" />
+	<SubTexture name="Down0002" x="1759" y="768" width="575" height="655" frameX="20.121623284640293" frameY="-10.151527213791951" frameWidth="575" frameHeight="655" />
+	<SubTexture name="Up0000" x="2337" y="768" width="585" height="710" frameX="0.0801842774571071" frameY="45.63285787714868" frameWidth="585" frameHeight="710" />
+	<SubTexture name="Up0001" x="2925" y="768" width="575" height="695" frameX="0.7630092774570585" frameY="31.808611021054034" frameWidth="575" frameHeight="695" />
+	<SubTexture name="Up0002" x="3503" y="768" width="575" height="685" frameX="0.7629092774570267" frameY="21.162217157119088" frameWidth="575" frameHeight="685" />
+</TextureAtlas>

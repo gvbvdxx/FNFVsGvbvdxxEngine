@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gangathon-michael.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="345" height="465" frameX="0" frameY="0" frameWidth="345" frameHeight="465" />
+	<SubTexture name="Idle0001" x="348" y="0" width="315" height="510" frameX="12.353973514626233" frameY="43.488339476677424" frameWidth="315" frameHeight="510" />
+	<SubTexture name="Idle0002" x="666" y="0" width="310" height="525" frameX="12.952688491969013" frameY="58.91746984877443" frameWidth="310" frameHeight="525" />
+	<SubTexture name="Idle0003" x="979" y="0" width="315" height="520" frameX="17.61139189851889" frameY="54.067447586202064" frameWidth="315" frameHeight="520" />
+	<SubTexture name="AHHH0000" x="1297" y="0" width="315" height="595" frameX="17.611400079015027" frameY="128.0078189221473" frameWidth="315" frameHeight="595" />
+	<SubTexture name="AHHH0001" x="1615" y="0" width="320" height="595" frameX="20.521426287258606" frameY="128.00781892214707" frameWidth="320" frameHeight="595" />
+	<SubTexture name="Left0000" x="1938" y="0" width="425" height="515" frameX="53.186428459417385" frameY="48.517606228990076" frameWidth="425" frameHeight="515" />
+	<SubTexture name="Left0001" x="2366" y="0" width="420" height="515" frameX="35.64564285286508" frameY="48.54127474392598" frameWidth="420" frameHeight="515" />
+	<SubTexture name="Right0000" x="2789" y="0" width="485" height="515" frameX="21.349320639543237" frameY="53.05158169911067" frameWidth="485" frameHeight="515" />
+	<SubTexture name="Right0001" x="3277" y="0" width="480" height="515" frameX="22.090597951002735" frameY="57.12981457296422" frameWidth="480" frameHeight="515" />
+	<SubTexture name="Down0000" x="3760" y="0" width="400" height="470" frameX="19.92268994516408" frameY="2.406413802633125" frameWidth="400" frameHeight="470" />
+	<SubTexture name="Down0001" x="0" y="598" width="390" height="475" frameX="17.995371754287248" frameY="5.249581422322507" frameWidth="390" frameHeight="475" />
+	<SubTexture name="Up0000" x="393" y="598" width="310" height="575" frameX="21.71375329288267" frameY="102.69709575568314" frameWidth="310" frameHeight="575" />
+	<SubTexture name="Up0001" x="706" y="598" width="310" height="565" frameX="21.713745639543447" frameY="92.27204209058662" frameWidth="310" frameHeight="565" />
+</TextureAtlas>

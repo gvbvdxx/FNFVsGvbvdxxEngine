@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gangathon-gvbvdxx.png">
+	<SubTexture name="gvb-idle0000" x="0" y="0" width="540" height="550" frameX="0" frameY="0" frameWidth="540" frameHeight="550" />
+	<SubTexture name="gvb-idle0001" x="543" y="0" width="560" height="530" frameX="0" frameY="-17.80870166953605" frameWidth="560" frameHeight="530" />
+	<SubTexture name="gvb-idle0002" x="1106" y="0" width="570" height="515" frameX="8.33333333333357" frameY="-33.069702253888096" frameWidth="570" frameHeight="515" />
+	<SubTexture name="gvb-idle0003" x="1679" y="0" width="545" height="545" frameX="0" frameY="-5.8373052672661885" frameWidth="545" frameHeight="545" />
+	<SubTexture name="gvb-idle0004" x="2227" y="0" width="525" height="555" frameX="-3.333333333333428" frameY="4.8937594142790175" frameWidth="525" frameHeight="555" />
+	<SubTexture name="gvb-idle0005" x="2755" y="0" width="540" height="550" frameX="0" frameY="0" frameWidth="540" frameHeight="550" />
+	<SubTexture name="gvb-left0000" x="3298" y="0" width="485" height="520" frameX="-9.999999999999858" frameY="-32.15425505894473" frameWidth="485" frameHeight="520" />
+	<SubTexture name="gvb-left0001" x="3786" y="0" width="480" height="540" frameX="-3.333333333333286" frameY="-14.300393033443655" frameWidth="480" frameHeight="540" />
+	<SubTexture name="gvb-left0002" x="4269" y="0" width="465" height="550" frameX="1.6666250000000105" frameY="-10.329045581150424" frameWidth="465" frameHeight="550" />
+	<SubTexture name="gvb-right0000" x="4737" y="0" width="515" height="505" frameX="-27.04024527124318" frameY="-53.28618985600926" frameWidth="515" frameHeight="505" />
+	<SubTexture name="gvb-right0001" x="5255" y="0" width="535" height="510" frameX="-4.9280826729670935" frameY="-39.928315968915484" frameWidth="535" frameHeight="510" />
+	<SubTexture name="gvb-right0002" x="0" y="628" width="535" height="510" frameX="-3.2614160063015163" frameY="-39.654389998429735" frameWidth="535" frameHeight="510" />
+	<SubTexture name="gvb-up0000" x="538" y="628" width="515" height="545" frameX="-23.464409817923553" frameY="-8.476776224537232" frameWidth="515" frameHeight="545" />
+	<SubTexture name="gvb-up0001" x="1056" y="628" width="530" height="525" frameX="-32.55185240391384" frameY="-28.199159934544653" frameWidth="530" frameHeight="525" />
+	<SubTexture name="gvb-up0002" x="1589" y="628" width="540" height="520" frameX="-34.36047465239497" frameY="-36.344300047606026" frameWidth="540" frameHeight="520" />
+	<SubTexture name="gvb-down0000" x="2132" y="628" width="615" height="470" frameX="37.33081402008267" frameY="-87.74636506462997" frameWidth="615" frameHeight="470" />
+	<SubTexture name="gvb-down0001" x="2750" y="628" width="605" height="485" frameX="27.60717549662374" frameY="-71.60290782894634" frameWidth="605" frameHeight="485" />
+	<SubTexture name="gvb-down0002" x="3358" y="628" width="595" height="495" frameX="20.7279930663168" frameY="-65.4463610559101" frameWidth="595" frameHeight="495" />
+	<SubTexture name="gvb-AHH0000" x="3956" y="628" width="545" height="625" frameX="0" frameY="74.54054066157767" frameWidth="545" frameHeight="625" />
+</TextureAtlas>

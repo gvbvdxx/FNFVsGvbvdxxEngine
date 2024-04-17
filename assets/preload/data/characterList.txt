@@ -9,6 +9,12 @@ derpy
 donibobes
 eibo
 flipnote
+gangathon-bf
+gangathon-furball
+gangathon-gvbvdxx
+gangathon-h
+gangathon-johan
+gangathon-michael
 gf-pixel
 gf
 gvbvdxxy
@@ -18,6 +24,7 @@ invis
 jasonnewer-opponent
 jasonnewer-playable
 jokesonic
+just-air
 melneymad
 MiniScratchGamer
 newjason

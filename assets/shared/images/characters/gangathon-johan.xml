@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gangathon-johan.png">
+	<SubTexture name="IdleLeft0000" x="0" y="0" width="378" height="728" frameX="0" frameY="0" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleLeft0001" x="381" y="0" width="378" height="721" frameX="20.76990812388871" frameY="-2.3333245833334217" frameWidth="378" frameHeight="721" />
+	<SubTexture name="IdleLeft0002" x="762" y="0" width="378" height="721" frameX="1.6322823317738937" frameY="-0.0000029166666593027912" frameWidth="378" frameHeight="721" />
+	<SubTexture name="IdleLeft0003" x="1143" y="0" width="378" height="728" frameX="-0.000017147615835710894" frameY="0.000008749999977908374" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleRight0000" x="1524" y="0" width="378" height="728" frameX="-0.000017147615835710894" frameY="0.000008749999977908374" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleRight0001" x="1905" y="0" width="378" height="728" frameX="-49.47110535130645" frameY="-0.00006125000004431058" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleRight0002" x="2286" y="0" width="378" height="728" frameX="-13.06888653399659" frameY="-0.00006125000004431058" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleRight0003" x="2667" y="0" width="378" height="728" frameX="3.7354066696926225" frameY="-2.333406249999882" frameWidth="378" frameHeight="728" />
+	<SubTexture name="IdleRight0004" x="3048" y="0" width="378" height="728" frameX="-2.333432147615895" frameY="-2.333406249999882" frameWidth="378" frameHeight="728" />
+	<SubTexture name="Left0000" x="3429" y="0" width="420" height="742" frameX="66.55390434931101" frameY="15.267379905380011" frameWidth="420" frameHeight="742" />
+	<SubTexture name="Left0001" x="3852" y="0" width="413" height="742" frameX="66.54672946878148" frameY="17.355804616014666" frameWidth="413" frameHeight="742" />
+	<SubTexture name="Left0002" x="0" y="773" width="406" height="742" frameX="59.28544524956854" frameY="19.05373008527532" frameWidth="406" frameHeight="742" />
+	<SubTexture name="Right0000" x="409" y="773" width="441" height="735" frameX="-122.36348136318736" frameY="10.098566800731447" frameWidth="441" frameHeight="735" />
+	<SubTexture name="Right0001" x="853" y="773" width="434" height="728" frameX="-72.37783923084115" frameY="2.704243166909521" frameWidth="434" frameHeight="728" />
+	<SubTexture name="Right0002" x="1290" y="773" width="455" height="728" frameX="-48.70784487629905" frameY="2.490320839817855" frameWidth="455" frameHeight="728" />
+	<SubTexture name="Up0000" x="1748" y="773" width="427" height="770" frameX="-4.489036671162609" frameY="112.28585428391256" frameWidth="427" frameHeight="770" />
+	<SubTexture name="Up0001" x="2178" y="773" width="413" height="756" frameX="-4.488979419386425" frameY="88.85761180289452" frameWidth="413" frameHeight="756" />
+	<SubTexture name="Up0002" x="2594" y="773" width="413" height="756" frameX="-4.489014419386336" frameY="79.52428579984515" frameWidth="413" frameHeight="756" />
+	<SubTexture name="Up0003" x="3010" y="773" width="413" height="756" frameX="-4.489016008974744" frameY="73.45541589253553" frameWidth="413" frameHeight="756" />
+	<SubTexture name="Up0004" x="3426" y="773" width="413" height="756" frameX="-4.489019188151559" frameY="70.20055211145721" frameWidth="413" frameHeight="756" />
+	<SubTexture name="Down0000" x="3842" y="773" width="378" height="721" frameX="-23.217081044170214" frameY="-11.338843956947727" frameWidth="378" frameHeight="721" />
+	<SubTexture name="Down0001" x="4223" y="773" width="378" height="728" frameX="-14.087004721739447" frameY="-6.523611797968471" frameWidth="378" frameHeight="728" />
+	<SubTexture name="Down0002" x="0" y="1546" width="378" height="735" frameX="-14.00003463260407" frameY="-1.7501260301208106" frameWidth="378" frameHeight="735" />
+	<SubTexture name="Hacker0000" x="381" y="1546" width="364" height="721" frameX="-14.000085670639834" frameY="-0.00006125000004431058" frameWidth="364" frameHeight="721" />
+	<SubTexture name="Hacker0001" x="748" y="1546" width="364" height="721" frameX="-14.000052147615946" frameY="-0.00006125000004431058" frameWidth="364" frameHeight="721" />
+</TextureAtlas>
