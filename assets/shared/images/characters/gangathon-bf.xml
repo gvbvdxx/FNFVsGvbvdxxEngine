@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="gangathon-bf.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="703" height="686" frameX="0" frameY="0" frameWidth="703" frameHeight="686" />
+	<SubTexture name="Idle0001" x="706" y="0" width="707" height="689" frameX="1.7737308697666379" frameY="2.6374829268850277" frameWidth="707" frameHeight="689" />
+	<SubTexture name="Idle0002" x="1416" y="0" width="714" height="696" frameX="5.759588478593571" frameY="10.403088398814589" frameWidth="714" frameHeight="696" />
+	<SubTexture name="Idle0003" x="2133" y="0" width="714" height="717" frameX="1.3971534785936797" frameY="31.42217909928997" frameWidth="714" frameHeight="717" />
+	<SubTexture name="Idle0004" x="2850" y="0" width="714" height="724" frameX="1.4107334785936132" frameY="36.193379099289444" frameWidth="714" frameHeight="724" />
+	<SubTexture name="Left0000" x="3567" y="0" width="682" height="724" frameX="41.92157097859369" frameY="36.39085032740303" frameWidth="682" frameHeight="724" />
+	<SubTexture name="Left0001" x="4252" y="0" width="665" height="724" frameX="22.560638478593646" frameY="33.349362027363036" frameWidth="665" frameHeight="724" />
+	<SubTexture name="Right0000" x="4920" y="0" width="731" height="728" frameX="-51.08964182376728" frameY="37.799508129530444" frameWidth="731" frameHeight="728" />
+	<SubTexture name="Right0001" x="5654" y="0" width="731" height="728" frameX="-49.33964182376728" frameY="40.67465217824228" frameWidth="731" frameHeight="728" />
+	<SubTexture name="Up0000" x="6388" y="0" width="665" height="791" frameX="-47.914941521406305" frameY="104.6209340992896" frameWidth="665" frameHeight="791" />
+	<SubTexture name="Up0001" x="7056" y="0" width="675" height="780" frameX="-42.664941521406206" frameY="94.34472409928941" frameWidth="675" frameHeight="780" />
+	<SubTexture name="Down0000" x="0" y="794" width="672" height="640" frameX="5.881514518369684" frameY="-53.61078109826295" frameWidth="672" frameHeight="640" />
+	<SubTexture name="Down0001" x="675" y="794" width="668" height="644" frameX="0.7367701476356956" frameY="-46.92743239368408" frameWidth="668" frameHeight="644" />
+	<SubTexture name="LeftFail0000" x="1346" y="794" width="675" height="738" frameX="35.67389387897258" frameY="49.62639942585273" frameWidth="675" frameHeight="738" />
+	<SubTexture name="LeftFail0001" x="2024" y="794" width="682" height="738" frameX="42.67392887897259" frameY="49.6251109385691" frameWidth="682" frameHeight="738" />
+	<SubTexture name="RightFail0000" x="2709" y="794" width="735" height="787" frameX="-51.08964182376728" frameY="98.62544345417396" frameWidth="735" frameHeight="787" />
+	<SubTexture name="RightFail0001" x="3447" y="794" width="742" height="787" frameX="-51.08964182376728" frameY="98.62548429504747" frameWidth="742" frameHeight="787" />
+	<SubTexture name="UpFail0000" x="4192" y="794" width="647" height="770" frameX="-44.660046521406315" frameY="81.43420161231278" frameWidth="647" frameHeight="770" />
+	<SubTexture name="UpFail0001" x="4842" y="794" width="647" height="777" frameX="-44.660046521406315" frameY="91.9333357259353" frameWidth="647" frameHeight="777" />
+	<SubTexture name="DownFail0000" x="5492" y="794" width="672" height="710" frameX="5.881514518369684" frameY="18.43324062514526" frameWidth="672" frameHeight="710" />
+	<SubTexture name="DownFail0001" x="6167" y="794" width="672" height="686" frameX="5.881514518369684" frameY="-6.068635592567219" frameWidth="672" frameHeight="686" />
+	<SubTexture name="AHHHH0000" x="6842" y="794" width="721" height="787" frameX="8.143438478593623" frameY="98.62626091628175" frameWidth="721" frameHeight="787" />
+	<SubTexture name="AHHHH0001" x="0" y="1588" width="731" height="787" frameX="8.143438478593623" frameY="98.62591540884497" frameWidth="731" frameHeight="787" />
+	<SubTexture name="AHHHH0002" x="734" y="1588" width="714" height="787" frameX="8.143438478593623" frameY="98.62656209686187" frameWidth="714" frameHeight="787" />
+	<SubTexture name="AHHHH0003" x="1451" y="1588" width="721" height="787" frameX="8.143438478593623" frameY="98.62617212573807" frameWidth="721" frameHeight="787" />
+</TextureAtlas>
