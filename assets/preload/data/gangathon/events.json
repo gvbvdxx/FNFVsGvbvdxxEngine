@@ -1,0 +1,936 @@
+{
+	"song": {
+		"events": [
+			[
+				1263.15789473684,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1342.10526315789,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1421.05263157895,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1500,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1578.94736842105,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1657.89473684211,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1736.84210526316,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1815.78947368421,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1894.73684210526,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				1973.68421052632,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2052.63157894737,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2131.57894736842,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2210.52631578947,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2289.47368421053,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2368.42105263158,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2447.36842105263,
+				[
+					[
+						"Flash white",
+						"0.02",
+						""
+					]
+				]
+			],
+			[
+				2526.31578947368,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"gangathon-johan"
+					]
+				]
+			],
+			[
+				40815.7894736842,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42000,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42078.947368421,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42157.8947368421,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42236.8421052632,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42315.7894736842,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42394.7368421053,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42473.6842105263,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42552.6315789474,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42631.5789473684,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42710.5263157895,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42789.4736842105,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42868.4210526316,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				42947.3684210526,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				43026.3157894737,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				43105.2631578947,
+				[
+					[
+						"Play Animation",
+						"hacker",
+						"dad"
+					]
+				]
+			],
+			[
+				43184.2105263158,
+				[
+					[
+						"Set modchart",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				62526.3157894736,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"gangathon-gvbvdxx"
+					]
+				]
+			],
+			[
+				83368.4210526315,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83407.894736842,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83447.3684210526,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83486.8421052631,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83526.3157894736,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83565.7894736841,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83605.2631578947,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83644.7368421052,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83684.2105263157,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83723.6842105262,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83763.1578947368,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83802.6315789473,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83842.1052631578,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83881.5789473683,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83921.0526315789,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				83960.5263157894,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				88263.1578947368,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88302.6315789473,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88342.1052631578,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88381.5789473683,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88421.0526315789,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88460.5263157894,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88499.9999999999,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88539.4736842104,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88578.947368421,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88618.4210526315,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88657.894736842,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88697.3684210525,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				88736.8421052631,
+				[
+					[
+						"Play Animation",
+						"idle",
+						"2"
+					]
+				]
+			],
+			[
+				110289.47368421,
+				[
+					[
+						"Change Character",
+						"1",
+						"gangathon-furball"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				170131.578947369,
+				[
+					[
+						"Change Character",
+						"1",
+						"gangathon-michael"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				192000,
+				[
+					[
+						"Flash red",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				196894.736842106,
+				[
+					[
+						"Flash red",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				205184.210526316,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205263.157894737,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205342.105263158,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205421.05263158,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205500.000000001,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205578.947368422,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205657.894736843,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205736.842105264,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205815.789473685,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205894.736842106,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				205973.684210527,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				206052.631578948,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				206131.578947369,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				206210.52631579,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"dad"
+					]
+				]
+			],
+			[
+				206289.473684211,
+				[
+					[
+						"Play Animation",
+						"idle",
+						"dad"
+					]
+				]
+			],
+			[
+				210000.000000001,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				210236.842105264,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				210394.736842106,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				210552.631578948,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				210710.52631579,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				210868.421052632,
+				[
+					[
+						"Play Animation",
+						"AAAA",
+						"bf"
+					]
+				]
+			],
+			[
+				211184.210526316,
+				[
+					[
+						"Play Animation",
+						"idle",
+						"bf"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"gangathon-h"
+					]
+				]
+			]
+		]
+	}
+}
