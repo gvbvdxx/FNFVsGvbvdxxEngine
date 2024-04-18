@@ -85,7 +85,9 @@ class CreditsState extends MusicBeatState
 			['Gvbvdxx',		'gvbvdxx',		'Mostly mostly adding and creating everything else that is by him.',								'https://scratch.mit.edu/users/gvbvdxx/',	'cc0000'],
 			['Jojahn aka Johan',		'jojahnrevival',		'For some assets and some ideas and as a (somewhat) beta tester.',								'https://scratch.mit.edu/users/JojahnRevival/',	'ed0000'],
 			['Michael',		'michael',		'For assets and some other stuff and being a cool person. :)',								'https://scratch.mit.edu/users/MichaelTheCoolGamer/',	'ecf00e'],
-			['Furball',		'furball',		'For assets, and soem other stuff. She never said anything about credits.',								'https://scratch.mit.edu/users/FurbaII/',	'0ef0f0'],
+			['Furball',		'furball',		'For assets, and some other stuff.\nShe never said anything for her credit description.',								'https://scratch.mit.edu/users/FurbaII/',	'0ef0f0'],
+			['ZombieDude4712',		'zombiedude4712',		'For some suggestions and assets.\nHe left and never came back. :(',								'https://scratch.mit.edu/users/zombiedude4712/',	'9c7f00'],
+			['JS Engine Devlopers',		'jsicon',		'For auto update code and freeplay file checks to\navoid crashing on songs that are improperly stored in game.',								'https://github.com/JordanSantiagoYT/FNF-PsychEngine-NoBotplayLag',	'00ff0d'],
 			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
@@ -231,13 +233,15 @@ class CreditsState extends MusicBeatState
 				var lerpVal:Float = CoolUtil.boundTo(elapsed * 12, 0, 1);
 				if(item.targetY == 0)
 				{
-					var lastX:Float = item.x;
+					//var lastX:Float = item.x;
+					//item.screenCenter(X);
+					//item.x = FlxMath.lerp(lastX, item.x - 70, lerpVal);
 					item.screenCenter(X);
-					item.x = FlxMath.lerp(lastX, item.x - 70, lerpVal);
 				}
 				else
 				{
-					item.x = FlxMath.lerp(item.x, 200 + -40 * Math.abs(item.targetY), lerpVal);
+					//item.x = FlxMath.lerp(item.x, 200 + -40 * Math.abs(item.targetY), lerpVal);
+					item.screenCenter(X);
 				}
 			}
 		}
@@ -247,7 +251,7 @@ class CreditsState extends MusicBeatState
 	var moveTween:FlxTween = null;
 	function changeSelection(change:Int = 0)
 	{
-		FlxG.sound.play(Paths.sound('scrollMenu'), 0.4);
+		FlxG.sound.play(Paths.sound('scrollMenu'), 1);
 		do {
 			curSelected += change;
 			if (curSelected < 0)
@@ -256,18 +260,18 @@ class CreditsState extends MusicBeatState
 				curSelected = 0;
 		} while(unselectableCheck(curSelected));
 
-		var newColor:Int =  getCurrentBGColor();
-		if(newColor != intendedColor) {
-			if(colorTween != null) {
-				colorTween.cancel();
-			}
-			intendedColor = newColor;
-			colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
-				onComplete: function(twn:FlxTween) {
-					colorTween = null;
-				}
-			});
-		}
+		//var newColor:Int =  getCurrentBGColor();
+		//if(newColor != intendedColor) {
+		//	if(colorTween != null) {
+		//		colorTween.cancel();
+		//	}
+		//	intendedColor = newColor;
+		//	colorTween = FlxTween.color(bg, 1, bg.color, intendedColor, {
+		//		onComplete: function(twn:FlxTween) {
+		//			colorTween = null;
+		//		}
+		//	});
+		//}
 
 		var bullShit:Int = 0;
 
@@ -288,7 +292,7 @@ class CreditsState extends MusicBeatState
 		descText.y = FlxG.height - descText.height + offsetThing - 60;
 
 		if(moveTween != null) moveTween.cancel();
-		moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.25, {ease: FlxEase.sineOut});
+		moveTween = FlxTween.tween(descText, {y : descText.y + 75}, 0.07, {ease: FlxEase.sineOut});
 
 		descBox.setGraphicSize(Std.int(descText.width + 20), Std.int(descText.height + 25));
 		descBox.updateHitbox();

@@ -145,6 +145,8 @@ class Option
 			case 'integer': newValue = 'int';
 			case 'str': newValue = 'string';
 			case 'fl': newValue = 'float';
+			case 'reinstall': newValue = 'reinstall';
+			case 'label': newValue = 'label';
 		}
 		type = newValue;
 		return type;
