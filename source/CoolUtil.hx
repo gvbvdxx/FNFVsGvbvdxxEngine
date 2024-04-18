@@ -12,6 +12,7 @@ import flixel.tweens.FlxTween;
 #if sys
 import sys.io.File;
 import sys.FileSystem;
+import sys.io.Process;
 #else
 import openfl.utils.Assets;
 #end
@@ -190,5 +191,53 @@ class CoolUtil
 		return #if (flixel < "5.0.0") folder #else FlxG.stage.application.meta.get('company')
 			+ '/'
 			+ FlxSave.validate(FlxG.stage.application.meta.get('file')) #end;
+	}
+	
+	public static function updateTheEngine():Void {
+		#if windows
+		// Get the directory of the executable
+		var exePath = Sys.programPath();
+		var exeDir = haxe.io.Path.directory(exePath);
+
+		// Construct the source directory path based on the executable location
+		var sourceDirectory = haxe.io.Path.join([exeDir, "update", "raw", "bin"]);
+		var sourceDirectory2 = haxe.io.Path.join([exeDir, "update"]);
+
+		// Escape backslashes for use in the batch script
+		sourceDirectory = sourceDirectory.split('\\').join('\\\\');
+
+		var excludeFolder = "mods";
+
+		// Construct the batch script with echo statements
+		var theBatch = "@echo off\r\n";
+		theBatch += "echo If your seeing this, dont panic, this is normal. DO NOT CLOSE THIS UNLESS THIS HANGS, this is installing and copying the update files for FNF Vs Gvbvdxx to run. Closing this before its finished might result into your game files being partally copied and may corrupt the game.\r\n";
+		theBatch += "setlocal enabledelayedexpansion\r\n";
+		theBatch += "set \"sourceDirectory=" + sourceDirectory + "\"\r\n";
+		theBatch += "set \"sourceDirectory2=" + sourceDirectory2 + "\"\r\n";
+		theBatch += "set \"destinationDirectory=" + exeDir + "\"\r\n";
+		theBatch += "set \"excludeFolder=mods\"\r\n";
+		theBatch += "if not exist \"!sourceDirectory!\" (\r\n";
+		theBatch += "  echo Source directory does not exist: !sourceDirectory!\r\n";
+		theBatch += "  pause\r\n";
+		theBatch += "  exit /b\r\n";
+		theBatch += ")\r\n";
+		theBatch += "taskkill /F /IM FNFVsGvbvdxx.exe\r\n";
+		theBatch += "cd /d \"%~dp0\"\r\n";
+		theBatch += "rd /s /q \"%destinationDirectory%\\assets\" >nul 2>&1\r\n";
+		theBatch += "rd /s /q \"%destinationDirectory%\\manifest\" >nul 2>&1\r\n";
+		theBatch += "xcopy /e /y \"!sourceDirectory!\" \"!destinationDirectory!\"\r\n";
+		theBatch += "rd /s /q \"!sourceDirectory!\"\r\n";
+		theBatch += "start /d \"!destinationDirectory!\" FNFVsGvbvdxx.exe\r\n";
+		theBatch += "rd /s /q \"%~dp0\\update\"\r\n";
+		theBatch += "del \"%~f0\"\r\n";
+		theBatch += "endlocal\r\n";
+
+		// Save the batch file in the executable's directory
+		File.saveContent(haxe.io.Path.join([exeDir, "update.bat"]), theBatch);
+
+		// Execute the batch file
+		new Process(exeDir + "/update.bat", []);
+		Sys.exit(0);
+		#end
 	}
 }

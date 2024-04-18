@@ -1,5 +1,7 @@
 package;
 
+import flixel.addons.display.FlxBackdrop;
+import openfl.display.BlendMode;
 import flixel.FlxG;
 import flixel.FlxSprite;
 import flixel.FlxSubState;
@@ -16,34 +18,63 @@ class OutdatedState extends MusicBeatState
 	public static var leftState:Bool = false;
 
 	var warnText:FlxText;
+	var updateText:FlxText;
+	var checker:FlxBackdrop;
 	override function create()
 	{
 		super.create();
-
-		var bg:FlxSprite = new FlxSprite().makeGraphic(FlxG.width, FlxG.height, FlxColor.BLACK);
+		
+		var bg:FlxSprite = new FlxSprite(0, 0).loadGraphic(Paths.image("main-menu"));
+		bg.scale.set(1.1, 1.1);
+		bg.antialiasing = ClientPrefs.globalAntialiasing;
 		add(bg);
-
-		warnText = new FlxText(0, 0, FlxG.width,
-			"Sup bro, looks like you're running an   \n
-			outdated version of Psych Engine (" + MainMenuState.psychEngineVersion + "),\n
-			please update to " + TitleState.updateVersion + "!\n
-			Press ESCAPE to proceed anyway.\n
-			\n
-			Thank you for using the Engine!",
-			32);
-		warnText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		
+		checker = new FlxBackdrop(Paths.image('checker', 'preload'));
+		checker.scale.set(1.4, 1.4);
+		checker.color = 0xFF890FF5;
+		checker.blend = BlendMode.LAYER;
+		add(checker);
+		checker.scrollFactor.set(0, 0.07);
+		checker.alpha = 0.2;
+		checker.updateHitbox();
+		
+		warnText = new FlxText(0, 10, FlxG.width,
+			"HEY! Your FNF Vs Gvbvdxx is outdated!\n"
+			+ 'current version: V' + MainMenuState.FNFVsGvbVersion + '\nexpected version: V' + TitleState.updateVersion + '\n'
+			,32);
+		warnText.setFormat(Paths.font("vcr.ttf"), 25, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);
+		
+		
+		updateText = new FlxText(0, 10, FlxG.width,
+			"Press SPACE to download manually, ENTER to auto update or ESCAPE to ignore this!"
+			,24);
+		updateText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+		updateText.y = 710 - updateText.height;
+		updateText.x = 10;
+		add(updateText);
 	}
 
 	override function update(elapsed:Float)
 	{
+		checker.x += elapsed * 100;
+		checker.y += elapsed * 100;
+		
 		if(!leftState) {
-			if (controls.ACCEPT) {
+			if (FlxG.keys.justPressed.ENTER) {
 				leftState = true;
-				CoolUtil.browserLoad("https://github.com/ShadowMario/FNF-PsychEngine/releases");
+				#if windows
+				MusicBeatState.switchState(new UpdateState());
+				#else
+				CoolUtil.browserLoad("https://github.com/gvbvdxx/FNFVsGvbvdxxEngine/releases/latest");
+				#end
 			}
-			else if(controls.BACK) {
+			if (FlxG.keys.justPressed.SPACE) {
+				leftState = true;
+				CoolUtil.browserLoad("https://github.com/gvbvdxx/FNFVsGvbvdxxEngine/releases/latest");
+			}
+			if(controls.BACK) {
 				leftState = true;
 			}
 

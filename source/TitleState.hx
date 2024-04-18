@@ -131,19 +131,19 @@ class TitleState extends MusicBeatState
 		FlxG.save.bind('funkin', CoolUtil.getSavePath());
 
 		ClientPrefs.loadPrefs();
-
+		#if windows
 		#if CHECK_FOR_UPDATES
 		if(ClientPrefs.checkForUpdates && !closedState) {
 			trace('checking for update');
-			var http = new haxe.Http("https://raw.githubusercontent.com/ShadowMario/FNF-PsychEngine/main/gitVersion.txt");
+			var http = new haxe.Http("https://raw.githubusercontent.com/gvbvdxx/FNFVsGvbvdxxEngine/main/gitVersion.txt");
 
 			http.onData = function (data:String)
 			{
 				updateVersion = data.split('\n')[0].trim();
-				var curVersion:String = MainMenuState.psychEngineVersion.trim();
-				trace('version online: ' + updateVersion + ', your version: ' + curVersion);
+				var curVersion:String = MainMenuState.FNFVsGvbVersion.trim();
+				trace('Version online: ' + updateVersion + ', your version: ' + curVersion);
 				if(updateVersion != curVersion) {
-					trace('versions arent matching!');
+					trace('Versions arent matching!');
 					mustUpdate = true;
 				}
 			}
@@ -154,6 +154,7 @@ class TitleState extends MusicBeatState
 
 			http.request();
 		}
+		#end
 		#end
 
 		Highscore.load();

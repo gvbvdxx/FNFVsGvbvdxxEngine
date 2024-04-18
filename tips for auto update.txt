@@ -1,0 +1,3 @@
+Tips:
+For built in game version, its in MainMenuState
+And for github version, its gitVersion.txt

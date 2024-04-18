@@ -45,7 +45,7 @@ class CreditsState extends MusicBeatState
 		#end
 
 		persistentUpdate = true;
-		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
+		bg = new FlxSprite().loadGraphic(Paths.image('main-menu'));
 		add(bg);
 		bg.screenCenter();
 		
@@ -81,6 +81,12 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			['FNF Vs Gvbvdxx'],
+			['Gvbvdxx',		'gvbvdxx',		'Mostly mostly adding and creating everything else that is by him.',								'https://scratch.mit.edu/users/gvbvdxx/',	'cc0000'],
+			['Jojahn aka Johan',		'jojahnrevival',		'For some assets and some ideas and as a (somewhat) beta tester.',								'https://scratch.mit.edu/users/JojahnRevival/',	'ed0000'],
+			['Michael',		'michael',		'For assets and some other stuff and being a cool person. :)',								'https://scratch.mit.edu/users/MichaelTheCoolGamer/',	'ecf00e'],
+			['Furball',		'furball',		'For assets, and soem other stuff. She never said anything about credits.',								'https://scratch.mit.edu/users/FurbaII/',	'0ef0f0'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],

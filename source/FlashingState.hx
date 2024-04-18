@@ -30,7 +30,7 @@ class FlashingState extends MusicBeatState
 			present in this mod, so do not be suprised when you see a swear word or something.\n
 			You've been warned!\n
 			Press ENTER to continue.",
-			32);
+			24);
 		warnText.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER);
 		warnText.screenCenter(Y);
 		add(warnText);

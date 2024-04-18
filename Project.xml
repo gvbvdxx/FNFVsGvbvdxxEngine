@@ -61,7 +61,9 @@
 	
 
 	<!-- DONT ENABLE THIS -->
-	<define name="CHECK_FOR_UPDATES" if="desktop officialBuild"/>
+	<!-- I am lololololol -->
+	<!-- But actually, disable this if your modding and rebuilding. -->
+	<define name="CHECK_FOR_UPDATES" if="desktop"/>
 
 	<!-- <define name="PRELOAD_ALL" /> -->
 	<define name="PRELOAD_ALL" unless="web" />
