@@ -3,8 +3,10 @@ package;
 import haxe.zip.Entry;
 import haxe.zip.Writer;
 import haxe.Exception;
+#if !html5
 import sys.io.File;
 import sys.FileSystem;
+#end
 
 using StringTools;
 
@@ -12,6 +14,7 @@ class UpdateZipSystem
 {
 	public static function unzip(_path:String, _dest:String, ignoreRootFolder:String = "")
 	{
+		#if !html5
 		var _in_file = sys.io.File.read(_path);
 		var _entries = haxe.zip.Reader.readZip(_in_file);
 
@@ -56,10 +59,12 @@ class UpdateZipSystem
 
 		Sys.println('');
 		Sys.println('unzipped successfully to ${_dest}');
+		#end
 	} // unzip
 
 	public static function unzipData(f:Entry)
 	{
+		#if !html5
 		if (!f.compressed)
 			return f.data;
 		var c = new haxe.zip.Uncompress(-15);
@@ -72,5 +77,6 @@ class UpdateZipSystem
 		f.dataSize = f.fileSize;
 		f.data = s;
 		return f.data;
+		#end
 	}
 }

@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="png-rainbow-angy.png">
+	<SubTexture name="Left0000" x="0" y="0" width="732" height="861" frameX="0" frameY="0" frameWidth="732" frameHeight="861" />
+	<SubTexture name="Left0001" x="735" y="0" width="732" height="861" frameX="-4.500499422101967" frameY="-0.0006015869449527145" frameWidth="732" frameHeight="861" />
+	<SubTexture name="Left0002" x="1470" y="0" width="732" height="861" frameX="-4.500499422101967" frameY="-0.0006015869449527145" frameWidth="732" frameHeight="861" />
+	<SubTexture name="Up0000" x="2205" y="0" width="891" height="879" frameX="-164.26976328615785" frameY="431.2226667737309" frameWidth="891" frameHeight="879" />
+	<SubTexture name="Up0001" x="3099" y="0" width="891" height="879" frameX="-164.26975984969403" frameY="419.24074964554154" frameWidth="891" frameHeight="879" />
+	<SubTexture name="Up0002" x="3993" y="0" width="891" height="879" frameX="-164.27230534391668" frameY="410.24013892748894" frameWidth="891" frameHeight="879" />
+	<SubTexture name="Right0000" x="4887" y="0" width="603" height="717" frameX="-417.7840309026386" frameY="-69.64742443453862" frameWidth="603" frameHeight="717" />
+	<SubTexture name="Right0001" x="5493" y="0" width="594" height="708" frameX="-417.4529910317897" frameY="-72.66676650791398" frameWidth="594" frameHeight="708" />
+	<SubTexture name="Right0002" x="6090" y="0" width="588" height="705" frameX="-417.97105831298177" frameY="-72.784462214419" frameWidth="588" frameHeight="705" />
+	<SubTexture name="Down0000" x="6681" y="0" width="804" height="477" frameX="-242.54625251166357" frameY="-319.2085197490162" frameWidth="804" frameHeight="477" />
+	<SubTexture name="Down0001" x="7488" y="0" width="786" height="495" frameX="-251.5500525669635" frameY="-302.7071749960164" frameWidth="786" frameHeight="495" />
+	<SubTexture name="Down0002" x="0" y="882" width="777" height="498" frameX="-256.0482740433633" frameY="-298.20912197861617" frameWidth="777" frameHeight="498" />
+	<SubTexture name="Idle0000" x="780" y="882" width="660" height="579" frameX="-337.61037545813815" frameY="-133.58520284140246" frameWidth="660" frameHeight="579" />
+	<SubTexture name="Idle0001" x="1443" y="882" width="738" height="513" frameX="-337.6050690446383" frameY="-196.58179477330248" frameWidth="738" frameHeight="513" />
+	<SubTexture name="Idle0002" x="2184" y="882" width="684" height="552" frameX="-337.6067619206382" frameY="-157.5781588429028" frameWidth="684" frameHeight="552" />
+	<SubTexture name="Idle0003" x="2871" y="882" width="672" height="570" frameX="-337.6162171976378" frameY="-142.58574972010268" frameWidth="672" frameHeight="570" />
+	<SubTexture name="Idle0004" x="3546" y="882" width="660" height="579" frameX="-337.61037545813815" frameY="-133.58520284140246" frameWidth="660" frameHeight="579" />
+</TextureAtlas>

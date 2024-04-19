@@ -1,5 +1,5 @@
 {
-	"storyName": "Your New Week",
+	"storyName": "Derpy World",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "derpyworld",
@@ -12,6 +12,15 @@
 	"startUnlocked": true,
 	"hideStoryMode": false,
 	"songs": [
+		[
+			"derpymistake",
+			"goofy-jason",
+			[
+				50,
+				50,
+				50
+			]
+		],
 		[
 			"derpy-sing",
 			"icon-jason",

@@ -11,7 +11,9 @@ import haxe.zip.Entry;
 import haxe.zip.Reader;
 import UpdateZipSystem;
 import haxe.zip.Uncompress;
+#if !html5
 import sys.io.File;
+#end
 import openfl.utils.ByteArray;
 import lime.utils.Bytes;
 import openfl.net.URLRequest;
@@ -20,7 +22,9 @@ import openfl.events.ProgressEvent;
 import openfl.net.URLLoader;
 import haxe.zip.Writer;
 import flixel.math.FlxMath;
+#if !html5
 import sys.FileSystem;
+#end
 import haxe.Http;
 import flixel.ui.FlxBar;
 import flixel.FlxG;
@@ -28,7 +32,9 @@ import flixel.util.FlxColor;
 import flixel.text.FlxText;
 import flixel.FlxState;
 import flixel.FlxSprite;
+#if !html5
 import sys.io.Process;
+#end
 
 using StringTools;
 
@@ -163,6 +169,7 @@ class UpdateState extends MusicBeatState
 
 	function prepareUpdate()
 	{
+		#if !html5
 		trace("preparing update...");
 		trace("checking if update folder exists...");
 
@@ -177,12 +184,14 @@ class UpdateState extends MusicBeatState
 		{
 			trace("update folder found");
 		}
+		#end
 	}
 
 	var httpHandler:Http;
 
 	public function startDownload()
 	{
+		#if !html5
 		trace("starting download process...");
 
 		zip.load(new URLRequest(online_url));
@@ -197,6 +206,7 @@ class UpdateState extends MusicBeatState
 			content = requestUrl(online_url);
 			sys.io.File.write(path, true).writeString(content);
 			trace(content.length + " bytes downloaded"); */
+		#end
 	}
 
 	public function requestUrl(url:String):String
@@ -254,6 +264,7 @@ function convert_time(time:Float)
 
 	function onDownloadComplete(result:openfl.events.Event)
 	{
+		#if !html5
 		var path:String = './update/temp/'; // FNF Vs Gvbvdxx ' + TitleState.onlineVer + ".zip";
 
 		if (!FileSystem.exists(path))
@@ -282,6 +293,7 @@ function convert_time(time:Float)
 		new FlxTimer().start(0.7, function (tmr:FlxTimer) {
 			installUpdate("./update/raw/");
 		});
+		#end
 	}
 
 	function installUpdate(updateFolder:String)

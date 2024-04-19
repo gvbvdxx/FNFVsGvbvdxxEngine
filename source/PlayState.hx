@@ -666,6 +666,23 @@ class PlayState extends MusicBeatState
 				ScratchBG.setGraphicSize(Std.int(ScratchBG.width * 1));
 				ScratchBG.updateHitbox();
 				//Add AFTER the character layers are added.
+				
+			case 'crapbackground':				
+				var crapsky:BGSprite = new BGSprite('crapbackground/crapsky', -780, -500, 0, 0);
+				crapsky.setGraphicSize(Std.int(crapsky.width * 5));
+				crapsky.updateHitbox();
+				add(crapsky);
+				
+				var crapclouds:BGSprite = new BGSprite('crapbackground/crapclouds', -780, -500, 0.3, 0.3);
+				crapclouds.setGraphicSize(Std.int(crapclouds.width * 3));
+				crapclouds.updateHitbox();
+				add(crapclouds);
+				
+				var crapblock:BGSprite = new BGSprite('crapbackground/crapblock', -1700, -450, 1, 1);
+				crapblock.setGraphicSize(Std.int(crapblock.width * 4));
+				crapblock.updateHitbox();
+				add(crapblock);
+				
 		}
 
 		switch(Paths.formatToSongPath(SONG.song))
