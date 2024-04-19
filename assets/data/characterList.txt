@@ -5,6 +5,7 @@ bf-pixel-opponent
 bf-pixel
 bf
 bfcraft
+crap-friend
 derpy
 donibobes
 eibo
@@ -17,6 +18,7 @@ gangathon-johan
 gangathon-michael
 gf-pixel
 gf
+goofy-jason
 gvbvdxxy
 gvbvdxxyv2
 gvbvdxxyv3
@@ -30,6 +32,8 @@ MiniScratchGamer
 newjason
 peano-jason
 playable-flipnote
+png-angy-rainbow
+png-derpy
 scatchcat3.0
 scratch-bf
 scratch-gf

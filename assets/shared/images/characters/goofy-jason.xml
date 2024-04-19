@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="goofy-jason.png">
+	<SubTexture name="IdleLeft0000" x="0" y="0" width="616" height="1148" frameX="0" frameY="0" frameWidth="616" frameHeight="1148" />
+	<SubTexture name="IdleLeft0001" x="619" y="0" width="539" height="1148" frameX="-87.05234280831672" frameY="-5.098918922920092" frameWidth="539" frameHeight="1148" />
+	<SubTexture name="IdleLeft0002" x="1161" y="0" width="553" height="1155" frameX="-81.91621495794638" frameY="6.4104926143048" frameWidth="553" frameHeight="1155" />
+	<SubTexture name="IdleRight0000" x="1717" y="0" width="567" height="1120" frameX="-80.51407370861972" frameY="-32.62951111339285" frameWidth="567" frameHeight="1120" />
+	<SubTexture name="IdleRight0001" x="2287" y="0" width="567" height="1162" frameX="-75.15668562606274" frameY="12.721901655632948" frameWidth="567" frameHeight="1162" />
+	<SubTexture name="IdleRight0002" x="2857" y="0" width="567" height="1155" frameX="-75.10709338274901" frameY="6.613249465841619" frameWidth="567" frameHeight="1155" />
+	<SubTexture name="Up0000" x="3427" y="0" width="567" height="1211" frameX="-26.56593078955433" frameY="169.22262872199562" frameWidth="567" frameHeight="1211" />
+	<SubTexture name="Up0001" x="3997" y="0" width="574" height="1190" frameX="-13.873047708273958" frameY="135.395943633299" frameWidth="574" frameHeight="1190" />
+	<SubTexture name="Up0002" x="4574" y="0" width="588" height="1127" frameX="-1.4383131832360903" frameY="69.38590276946638" frameWidth="588" frameHeight="1127" />
+	<SubTexture name="Down0000" x="5165" y="0" width="588" height="1085" frameX="-1.4383135779295344" frameY="-68.8640993398725" frameWidth="588" frameHeight="1085" />
+	<SubTexture name="Down0001" x="5756" y="0" width="588" height="1106" frameX="-1.4382791699692916" frameY="-44.364102503880815" frameWidth="588" frameHeight="1106" />
+	<SubTexture name="Down0002" x="0" y="1214" width="588" height="1120" frameX="-1.4382795646625368" frameY="-32.114104613219695" frameWidth="588" frameHeight="1120" />
+	<SubTexture name="Left0000" x="591" y="1214" width="945" height="1022" frameX="373.26580876648313" frameY="-137.26565486982918" frameWidth="945" frameHeight="1022" />
+	<SubTexture name="Left0001" x="1539" y="1214" width="903" height="1029" frameX="321.1830325758925" frameY="-128.37252065312526" frameWidth="903" frameHeight="1029" />
+	<SubTexture name="Left0002" x="2445" y="1214" width="917" height="1036" frameX="331.77369339201056" frameY="-124.84897430593183" frameWidth="917" frameHeight="1036" />
+	<SubTexture name="Right0000" x="3365" y="1214" width="1022" height="952" frameX="-220.11282456084908" frameY="-228.8370402861146" frameWidth="1022" frameHeight="952" />
+	<SubTexture name="Right0001" x="4390" y="1214" width="987" height="1043" frameX="-207.82511468064033" frameY="-137.4647124640087" frameWidth="987" frameHeight="1043" />
+	<SubTexture name="Right0002" x="5380" y="1214" width="938" height="1043" frameX="-203.59883726465242" frameY="-134.17680947778365" frameWidth="938" frameHeight="1043" />
+</TextureAtlas>

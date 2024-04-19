@@ -1,0 +1,89 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				19,
+				71
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
+		},
+		{
+			"offsets": [
+				-22,
+				-8
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
+		},
+		{
+			"offsets": [
+				53,
+				23
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
+		},
+		{
+			"offsets": [
+				-66,
+				45
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "danceLeft",
+			"indices": [],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "danceRight",
+			"indices": [],
+			"name": "Idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/png-derpy",
+	"position": [
+		-110,
+		10
+	],
+	"healthicon": "png-derpy",
+	"flip_x": false,
+	"healthbar_colors": [
+		193,
+		197,
+		209
+	],
+	"camera_position": [
+		-10,
+		-20
+	],
+	"sing_duration": 6.1,
+	"scale": 0.7
+}

@@ -1,0 +1,66 @@
+{
+	"song": {
+		"events": [
+			[
+				121714.164,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Set Hud Alpha",
+						"0",
+						"0.05"
+					],
+					[
+						"Change Character",
+						"1",
+						"png-angy-rainbow"
+					],
+					[
+						"Set Hud Zoom",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				143999.856,
+				[
+					[
+						"Change Character",
+						"1",
+						"goofy-jason"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Set Hud Alpha",
+						"1",
+						"1"
+					],
+					[
+						"Set Hud Zoom",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				161142.696,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			]
+		]
+	}
+}
