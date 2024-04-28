@@ -107,7 +107,7 @@ class ChartingState extends MusicBeatState
 		['Set Hud Zoom', "Sets the HUD's zoom.\nValue 1: Zoom to set hud to."],
 		['Set Hud Alpha', "Sets the HUD's alpha.\nValue 1: Alpha to set hud to.\nValue 2: Seconds for the alpha transition."],
 		['Enable camera focusing', "Enables the camera movement based on the \"Must Hit Section\".\nThis is default.\nNo values are required!"],
-		['Disables camera focusing', "Disables the camera movement based on the \"Must Hit Section\".\nNo values are required!"]
+		['Disable camera focusing', "Disables the camera movement based on the \"Must Hit Section\".\nNo values are required!"]
 	];
 
 	var _file:FileReference;

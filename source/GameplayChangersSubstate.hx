@@ -41,6 +41,15 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 	{
 		var option:GameplayOption = new GameplayOption('Cheater Mode (Botplay)', 'botplay', 'bool', false);
 		optionsArray.push(option);
+		
+		#if !html5
+		var option:GameplayOption = new GameplayOption('Playback Rate', 'songspeed', 'float', 1);
+		option.scrollSpeed = 3;
+		option.minValue = 0.01;
+		option.maxValue = 30;
+		option.changeValue = 0.01;
+		optionsArray.push(option);
+		#end
 	}
 
 	public function getOptionByName(name:String)

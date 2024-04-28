@@ -5025,8 +5025,8 @@ class PlayState extends MusicBeatState
 			if (iconp2tween != null) {
 				iconp2tween.cancel();
 			}
-			iconp1tween = FlxTween.tween(iconP1, {angle: 0}, 0.3, {ease: FlxEase.sineOut});
-			iconp2tween = FlxTween.tween(iconP2, {angle: 0}, 0.3, {ease: FlxEase.sineOut});
+			iconp1tween = FlxTween.tween(iconP1, {angle: 0}, 0.4 / playbackRate, {ease: FlxEase.sineOut});
+			iconp2tween = FlxTween.tween(iconP2, {angle: 0}, 0.4 / playbackRate, {ease: FlxEase.sineOut});
 		}
 
 		iconP1.updateHitbox();
