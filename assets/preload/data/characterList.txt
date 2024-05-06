@@ -1,5 +1,6 @@
 aibo recognition real
 annoyed_bf
+bf-dead
 bf-pixel-dead
 bf-pixel-opponent
 bf-pixel
