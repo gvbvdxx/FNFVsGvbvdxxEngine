@@ -1,0 +1,2176 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Set Hud Alpha",
+						"0",
+						"0.01"
+					]
+				]
+			],
+			[
+				563.38,
+				[
+					[
+						"Set Hud Zoom",
+						"0",
+						""
+					]
+				]
+			],
+			[
+				15774.64,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"eli"
+					]
+				]
+			],
+			[
+				15845.0625,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				15985.9075,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16126.7525,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16338.02,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16408.4425,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16478.865,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16619.71,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16690.1325,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16760.555,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16830.9775,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16901.4,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				16971.8225,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17183.09,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17464.78,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17535.2025,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17676.0475,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17746.47,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				17957.7375,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18098.5825,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18309.85,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18450.695,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18591.54,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18732.385,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				18873.23,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				19084.4975,
+				[
+					[
+						"Play Animation",
+						"griffpatch",
+						"dad"
+					]
+				]
+			],
+			[
+				20281.68,
+				[
+					[
+						"Set Hud Zoom",
+						"1",
+						""
+					],
+					[
+						"Set Hud Alpha",
+						"1",
+						"1"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				38309.84,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				42816.88,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				47323.92,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				49577.44,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				54084.48,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				58591.52,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				68732.36,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				86760.5199999999,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				91267.5599999999,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				95704.1774999999,
+				[
+					[
+						"Change Character",
+						"1",
+						"macre-happy"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				113802.76,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				122816.84,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				131267.54,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"macre-angry"
+					]
+				]
+			],
+			[
+				149859.08,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"0.5"
+					]
+				]
+			],
+			[
+				152675.98,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.5"
+					]
+				]
+			],
+			[
+				153239.36,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"0.5"
+					]
+				]
+			],
+			[
+				154366.12,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						"0.5"
+					]
+				]
+			],
+			[
+				155492.88,
+				[
+					[
+						"Set Cam Zoom",
+						"1.1",
+						"0.5"
+					]
+				]
+			],
+			[
+				156619.64,
+				[
+					[
+						"Set Cam Zoom",
+						"1.4",
+						"0.5"
+					]
+				]
+			],
+			[
+				157746.4,
+				[
+					[
+						"Set Cam Zoom",
+						"1.5",
+						"0.5"
+					]
+				]
+			],
+			[
+				158873.16,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"1"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				167887.24,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				185915.4,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				194577.3675,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"code-block"
+					]
+				]
+			],
+			[
+				198309.76,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				202816.8,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				216337.92,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				236619.600000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				241126.640000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				254647.760000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				256901.280000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				259718.180000001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.3"
+					]
+				]
+			],
+			[
+				259999.870000001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"0.3"
+					]
+				]
+			],
+			[
+				260281.560000001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.9",
+						"0.3"
+					]
+				]
+			],
+			[
+				264225.220000001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.8",
+						"0.3"
+					]
+				]
+			],
+			[
+				264506.910000001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.3"
+					]
+				]
+			],
+			[
+				264718.177500001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"1"
+					]
+				]
+			],
+			[
+				265844.937500001,
+				[
+					[
+						"Set Cam Zoom",
+						"0.6",
+						"1"
+					]
+				]
+			],
+			[
+				304225.200000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				306478.720000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				308732.240000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				310985.760000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				322182.937500001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"eli"
+					]
+				]
+			],
+			[
+				324506.880000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				342535.040000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				360563.200000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				369577.280000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				378591.360000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				383098.400000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				396619.520000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				414647.680000002,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				414718.102500002,
+				[
+					[
+						"Change Character",
+						"1",
+						"baldi"
+					]
+				]
+			],
+			[
+				459718.080000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				469013.850000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				473520.890000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				477746.240000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				482253.280000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				486760.320000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				491267.360000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				495774.400000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				500281.440000003,
+				[
+					[
+						"Change Character",
+						"1",
+						"SonicDancing"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				509295.520000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				518309.600000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				519436.360000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				520563.120000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				521689.880000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				522816.640000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				523943.400000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				525070.160000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				526196.920000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				527323.680000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				529577.200000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				530703.960000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				531830.720000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				532957.480000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				534084.240000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				535211.000000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				536337.760000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				537464.520000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				538591.280000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				539718.040000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				540844.800000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				541971.560000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				543098.320000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				544225.080000003,
+				[
+					[
+						"Flash white",
+						"0.4",
+						""
+					]
+				]
+			],
+			[
+				545351.840000003,
+				[
+					[
+						"Flash white",
+						"1.5",
+						""
+					]
+				]
+			],
+			[
+				547605.360000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				556619.440000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				561126.480000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				574647.600000003,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				583661.680000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				601689.840000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				610703.920000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				612957.440000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				615210.960000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				617464.480000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				620844.760000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				621971.520000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"sing-jason"
+					]
+				]
+			],
+			[
+				649013.760000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				658027.840000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				667041.920000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				676056.000000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				685070.080000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				689577.120000004,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				707605.280000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				725633.440000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				729013.720000005,
+				[
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				739084.137500005,
+				[
+					[
+						"Change Character",
+						"1",
+						"bandu"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				766196.800000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				768450.320000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				779717.920000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				781971.440000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				784224.960000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				793239.040000005,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				797746.080000005,
+				[
+					[
+						"Change Character",
+						"1",
+						"bamber"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				842816.480000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				847323.520000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				851830.560000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				854084.080000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				856337.600000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				858591.120000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				865351.680000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				883379.840000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				901408.000000006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				911478.417500006,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"boykisser"
+					]
+				]
+			],
+			[
+				911548.840000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911619.262500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911689.685000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911760.107500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911830.530000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911900.952500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				911971.375000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912041.797500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912112.220000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912182.642500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912253.065000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912323.487500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912393.910000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912464.332500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912534.755000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912605.177500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912675.600000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				912957.290000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913309.402500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913379.825000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913450.247500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913520.670000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913591.092500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913661.515000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913731.937500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913802.360000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913872.782500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				913943.205000006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				914013.627500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				914577.007500006,
+				[
+					[
+						"Play Animation",
+						"You like kissing boys don't you?",
+						"dad"
+					]
+				]
+			],
+			[
+				996055.840000007,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1000562.88000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1005069.92000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1014084.00000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1018309.35000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1023098.08000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1025914.98000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			],
+			[
+				1027534.69750001,
+				[
+					[
+						"Change Character",
+						"1",
+						"eli-angry"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1036619.20000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1041126.24000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1072675.52000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1081689.60000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1099717.76000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1104224.80000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1117745.92000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1122252.96000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"eli-sad"
+					]
+				]
+			],
+			[
+				1160562.80000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1178590.96000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1183098.00000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1187886.73000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				1196619.12000001,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Change Character",
+						"1",
+						"just-air"
+					]
+				]
+			]
+		]
+	}
+}

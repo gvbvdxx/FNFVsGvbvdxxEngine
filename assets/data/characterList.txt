@@ -1,15 +1,23 @@
 aibo recognition real
 annoyed_bf
+baldi
+bamber
+bandu
 bf-dead
 bf-pixel-dead
 bf-pixel-opponent
 bf-pixel
 bf
 bfcraft
+boykisser
+code-block
 crap-friend
 derpy
 donibobes
 eibo
+eli-angry
+eli-sad
+eli
 flipnote
 gangathon-bf
 gangathon-furball
@@ -28,6 +36,8 @@ jasonnewer-opponent
 jasonnewer-playable
 jokesonic
 just-air
+macre-angry
+macre-happy
 melneymad
 MiniScratchGamer
 newjason

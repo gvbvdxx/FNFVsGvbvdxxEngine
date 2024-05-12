@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="coding-block.png">
+	<SubTexture name="its just a coding block nothing else0000" x="0" y="0" width="2634" height="2592" frameX="0" frameY="0" frameWidth="2634" frameHeight="2592" />
+</TextureAtlas>

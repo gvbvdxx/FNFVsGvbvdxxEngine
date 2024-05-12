@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="boykisser-fixed.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="1325" height="1325" frameX="0" frameY="0" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Right0000" x="1328" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Right0001" x="2656" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Right0002" x="3984" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00006246246243790665" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Left0000" x="5312" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Left0001" x="6640" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Left0002" x="7968" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Down0000" x="9296" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Down0001" x="10624" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Down0002" x="11952" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Up0000" x="13280" y="0" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Up0001" x="0" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="Up0002" x="1328" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="youlike0000" x="2656" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="youlike0001" x="3984" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="youlike0002" x="5312" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+	<SubTexture name="youlike0003" x="6640" y="1328" width="1325" height="1325" frameX="0.0000048798798957250256" frameY="-0.00001246246242203597" frameWidth="1325" frameHeight="1325" />
+</TextureAtlas>
