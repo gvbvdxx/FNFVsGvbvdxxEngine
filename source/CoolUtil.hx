@@ -34,7 +34,6 @@ class CoolUtil
 	inline public static function quantize(f:Float, snap:Float){
 		// changed so this actually works lol
 		var m:Float = Math.fround(f * snap);
-		trace(snap);
 		return (m / snap);
 	}
 	
@@ -133,7 +132,6 @@ class CoolUtil
 		#if !linux
 		lime.app.Application.current.window.alert(message, title);
 		#else
-		trace(title + " - " + message, ERROR);
 
 		var text:FlxText = new FlxText(8, 0, 1280, title + " - " + message, 24);
 		text.color = FlxColor.RED;

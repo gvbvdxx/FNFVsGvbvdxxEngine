@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="eli-angry.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="1085" height="1400" frameX="0" frameY="0" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Idle0001" x="1088" y="0" width="1085" height="1400" frameX="25.000001201201343" frameY="25.000010135135255" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Idle0002" x="2176" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Idle0003" x="3264" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Left0000" x="4352" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Left0001" x="5440" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Left0002" x="6528" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Right0000" x="7616" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Right0001" x="8704" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Right0002" x="9792" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Right0003" x="10880" y="0" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Up0000" x="0" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Up0001" x="1088" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Up0002" x="2176" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Down0000" x="3264" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Down0001" x="4352" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+	<SubTexture name="Down0002" x="5440" y="1403" width="1085" height="1400" frameX="25" frameY="25" frameWidth="1085" frameHeight="1400" />
+</TextureAtlas>

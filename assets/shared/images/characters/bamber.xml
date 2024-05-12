@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="bamber.png">
+<SubTexture name="bamber idle0000" x="0" y="982" width="343" height="305" frameX="0" frameY="0" frameWidth="343" frameHeight="305" />
+<SubTexture name="bamber idle0001" x="0" y="1287" width="357" height="295" frameX="0" frameY="0" frameWidth="357" frameHeight="295" />
+<SubTexture name="bamber idle0002" x="1413" y="0" width="350" height="297" frameX="0" frameY="0" frameWidth="350" frameHeight="297" />
+<SubTexture name="bamber idle0003" x="343" y="982" width="343" height="302" frameX="0" frameY="0" frameWidth="343" frameHeight="302" />
+<SubTexture name="bamber left0000" x="420" y="343" width="311" height="321" frameX="0" frameY="0" frameWidth="311" frameHeight="321" />
+<SubTexture name="bamber left0001" x="851" y="0" width="314" height="316" frameX="0" frameY="0" frameWidth="314" frameHeight="316" />
+<SubTexture name="bamber left0002" x="414" y="667" width="315" height="313" frameX="0" frameY="0" frameWidth="315" frameHeight="313" />
+<SubTexture name="bamber down0000" x="1413" y="572" width="338" height="269" frameX="0" frameY="0" frameWidth="338" frameHeight="269" />
+<SubTexture name="bamber down0001" x="1413" y="297" width="348" height="275" frameX="0" frameY="0" frameWidth="348" frameHeight="275" />
+<SubTexture name="bamber down0002" x="758" y="1287" width="357" height="278" frameX="0" frameY="0" frameWidth="357" frameHeight="278" />
+<SubTexture name="bamber up0000" x="0" y="0" width="425" height="343" frameX="0" frameY="0" frameWidth="425" frameHeight="343" />
+<SubTexture name="bamber up0001" x="425" y="0" width="426" height="334" frameX="0" frameY="0" frameWidth="426" frameHeight="334" />
+<SubTexture name="bamber up0002" x="0" y="343" width="420" height="324" frameX="0" frameY="0" frameWidth="420" frameHeight="324" />
+<SubTexture name="bamber right0000" x="0" y="667" width="414" height="315" frameX="0" frameY="0" frameWidth="414" frameHeight="315" />
+<SubTexture name="bamber right0001" x="686" y="982" width="404" height="302" frameX="0" frameY="0" frameWidth="404" frameHeight="302" />
+<SubTexture name="bamber right0002" x="357" y="1287" width="401" height="295" frameX="0" frameY="0" frameWidth="401" frameHeight="295" />
+<SubTexture name="bamber IMGONNABREKMYW45YH870R VYEIFJLASDKFPHONEE0000" x="851" y="316" width="286" height="307" frameX="0" frameY="0" frameWidth="286" frameHeight="307" />
+<SubTexture name="bamber IMGONNABREKMYW45YH870R VYEIFJLASDKFPHONEE0001" x="729" y="667" width="263" height="307" frameX="0" frameY="0" frameWidth="263" frameHeight="307" />
+<SubTexture name="bamber IMGONNABREKMYW45YH870R VYEIFJLASDKFPHONEE0002" x="1165" y="0" width="248" height="307" frameX="0" frameY="0" frameWidth="248" frameHeight="307" />
+<SubTexture name="bamber IMGONNABREKMYW45YH870R VYEIFJLASDKFPHONEE0003" x="1165" y="307" width="248" height="307" frameX="0" frameY="0" frameWidth="248" frameHeight="307" />
+<SubTexture name="bamber IMGONNABREKMYW45YH870R VYEIFJLASDKFPHONEE0004" x="1165" y="614" width="248" height="307" frameX="0" frameY="0" frameWidth="248" frameHeight="307" />
+</TextureAtlas>

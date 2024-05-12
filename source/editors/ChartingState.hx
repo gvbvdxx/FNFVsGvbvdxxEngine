@@ -167,6 +167,13 @@ class ChartingState extends MusicBeatState
 
 	var leftIcon:HealthIcon;
 	var rightIcon:HealthIcon;
+	
+	var lilBuddiesColorSwap:ColorSwap;
+	var lilBuddies2ColorSwap:ColorSwap;
+	
+	var lilStage:FlxSprite;
+	var lilBf:FlxSprite;
+	var lilOpp:FlxSprite;
 
 	var value1InputText:FlxUIInputText;
 	var value2InputText:FlxUIInputText;
@@ -258,6 +265,40 @@ class ChartingState extends MusicBeatState
 		bg.scrollFactor.set();
 		bg.color = 0xFF222222;
 		add(bg);
+		
+		lilStage = new FlxSprite(32, 432).loadGraphic(Paths.image("chartEditor/lilStage"));
+		lilStage.scrollFactor.set();
+		add(lilStage);
+		
+		lilBf = new FlxSprite(32, 432).loadGraphic(Paths.image("chartEditor/lilBf"), true, 300, 256);
+		lilBf.animation.add("idle", [0, 1], 12, true);
+		lilBf.animation.add("0", [3, 4, 5], 12, false);
+		lilBf.animation.add("1", [6, 7, 8], 12, false);
+		lilBf.animation.add("2", [9, 10, 11], 12, false);
+		lilBf.animation.add("3", [12, 13, 14], 12, false);
+		lilBf.animation.add("yeah", [17, 20, 23], 12, false);
+		lilBf.animation.play("idle");
+		lilBf.animation.finishCallback = function(name:String){
+			lilBf.animation.play(name, true, false, lilBf.animation.getByName(name).numFrames - 2);
+		}
+		lilBf.scrollFactor.set();
+		add(lilBf);
+		
+		lilBuddiesColorSwap = new ColorSwap();
+		lilBuddies2ColorSwap = new ColorSwap();
+		lilBf.shader = lilBuddiesColorSwap.shader;
+		lilOpp = new FlxSprite(32, 432).loadGraphic(Paths.image("chartEditor/lilOpp"), true, 300, 256);
+		lilOpp.animation.add("idle", [0, 1], 12, true);
+		lilOpp.animation.add("0", [3, 4, 5], 12, false);
+		lilOpp.animation.add("1", [6, 7, 8], 12, false);
+		lilOpp.animation.add("2", [9, 10, 11], 12, false);
+		lilOpp.animation.add("3", [12, 13, 14], 12, false);
+		lilOpp.animation.play("idle");
+		lilOpp.animation.finishCallback = function(name:String){
+			lilOpp.animation.play(name, true, false, lilOpp.animation.getByName(name).numFrames - 2);
+		}
+		lilOpp.scrollFactor.set();
+		add(lilOpp);
 
 		gridLayer = new FlxTypedGroup<FlxSprite>();
 		add(gridLayer);
@@ -1765,7 +1806,12 @@ class ChartingState extends MusicBeatState
 				if (FlxG.sound.music.playing)
 				{
 					FlxG.sound.music.pause();
-					if(vocals != null) vocals.pause();
+					if(vocals != null) {
+						vocals.pause();
+					}
+					
+					lilBf.animation.play("idle");
+					lilOpp.animation.play("idle");
 				}
 				else
 				{
@@ -1776,6 +1822,8 @@ class ChartingState extends MusicBeatState
 						vocals.play();
 					}
 					FlxG.sound.music.play();
+					lilBf.animation.play("idle");
+					lilOpp.animation.play("idle");
 				}
 			}
 
@@ -1790,6 +1838,11 @@ class ChartingState extends MusicBeatState
 			if (FlxG.mouse.wheel != 0)
 			{
 				FlxG.sound.music.pause();
+				if(vocals != null) {
+					vocals.pause();
+				}
+				lilBf.animation.play("idle");
+				lilOpp.animation.play("idle");
 				if (!mouseQuant)
 					FlxG.sound.music.time -= (FlxG.mouse.wheel * Conductor.stepCrochet*0.8);
 				else
@@ -1819,7 +1872,12 @@ class ChartingState extends MusicBeatState
 
 			if (FlxG.keys.pressed.W || FlxG.keys.pressed.S)
 			{
+				lilBf.animation.play("idle");
+				lilOpp.animation.play("idle");
 				FlxG.sound.music.pause();
+				if(vocals != null) {
+					vocals.pause();
+				}
 
 				var holdingShift:Float = 1;
 				if (FlxG.keys.pressed.CONTROL) holdingShift = 0.25;
@@ -1844,6 +1902,11 @@ class ChartingState extends MusicBeatState
 				if (FlxG.keys.justPressed.UP || FlxG.keys.justPressed.DOWN  )
 				{
 					FlxG.sound.music.pause();
+					if(vocals != null) {
+						vocals.pause();
+					}
+					lilBf.animation.play("idle");
+					lilOpp.animation.play("idle");
 					updateCurStep();
 					var time:Float = FlxG.sound.music.time;
 					var beat:Float = curDecBeat;
@@ -1905,6 +1968,9 @@ class ChartingState extends MusicBeatState
 				if (FlxG.keys.justPressed.UP || FlxG.keys.justPressed.DOWN  )
 				{
 					FlxG.sound.music.pause();
+					if(vocals != null) {
+						vocals.pause();
+					}
 
 
 					updateCurStep();
@@ -2063,6 +2129,27 @@ class ChartingState extends MusicBeatState
 						}
 
 						data = note.noteData;
+						
+						if (note.mustPress) {
+						if (true) 
+						{
+						lilBuddiesColorSwap.hue = note.colorSwap.hue;
+						lilBuddiesColorSwap.saturation = note.colorSwap.saturation;
+						lilBuddiesColorSwap.brightness = note.colorSwap.brightness;
+						}
+						lilBf.animation.play("" + (data % 4), true);
+						}
+						if (!note.mustPress) 
+						{
+							if (true) 
+							{
+							lilBuddies2ColorSwap.hue = note.colorSwap.hue;
+							lilBuddies2ColorSwap.saturation = note.colorSwap.saturation;
+							lilBuddies2ColorSwap.brightness = note.colorSwap.brightness;
+							}
+						lilOpp.animation.play("" + (data % 4), true);
+						}
+						
 						if(note.mustPress != _song.notes[curSec].mustHitSection)
 						{
 							data += 4;
@@ -2465,6 +2552,9 @@ class ChartingState extends MusicBeatState
 	{
 		if (_song.notes[sec] != null)
 		{
+			lilBf.animation.play("idle");
+			lilOpp.animation.play("idle");
+			
 			curSec = sec;
 			if (updateMusic)
 			{
