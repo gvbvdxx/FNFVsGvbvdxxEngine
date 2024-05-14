@@ -9,6 +9,7 @@ bf-pixel-opponent
 bf-pixel
 bf
 bfcraft
+boykisser-new
 boykisser
 code-block
 crap-friend
@@ -39,6 +40,7 @@ just-air
 macre-angry
 macre-happy
 melneymad
+michael-playable
 MiniScratchGamer
 newjason
 peano-jason

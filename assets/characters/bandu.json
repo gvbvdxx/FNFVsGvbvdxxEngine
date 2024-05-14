@@ -59,8 +59,8 @@
 	"no_antialiasing": false,
 	"image": "characters/bandu",
 	"position": [
-		-310,
-		-350
+		-130,
+		-520
 	],
 	"healthicon": "bandu",
 	"flip_x": false,

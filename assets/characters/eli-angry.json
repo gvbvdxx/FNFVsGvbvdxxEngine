@@ -59,10 +59,10 @@
 	"no_antialiasing": false,
 	"image": "characters/eli-angry",
 	"position": [
-		-400,
-		-190
+		-140,
+		-220
 	],
-	"healthicon": "eli",
+	"healthicon": "eli-mad",
 	"flip_x": false,
 	"healthbar_colors": [
 		235,
