@@ -46,6 +46,7 @@ using StringTools;
 class CharacterEditorState extends MusicBeatState
 {
 	var char:Character;
+	var charPositioning:Character;
 	var ghostChar:Character;
 	var textAnim:FlxText;
 	var bgLayer:FlxTypedGroup<FlxSprite>;
@@ -54,6 +55,7 @@ class CharacterEditorState extends MusicBeatState
 	//var animList:Array<String> = [];
 	var curAnim:Int = 0;
 	var daAnim:String = 'spooky';
+	var daPositioningAnim:String = 'gf';
 	var goToPlayState:Bool = true;
 	var camFollow:FlxObject;
 
@@ -81,7 +83,9 @@ class CharacterEditorState extends MusicBeatState
 	override function create()
 	{
 		//FlxG.sound.playMusic(Paths.music('breakfast'), 0.5);
-
+		
+		charPositioning = new Character(0, 0, daPositioningAnim, false); //So we don't crash instantly.
+		
 		camEditor = new FlxCamera();
 		camHUD = new FlxCamera();
 		camHUD.bgColor.alpha = 0;
@@ -412,6 +416,8 @@ class CharacterEditorState extends MusicBeatState
 		}';
 
 	var charDropDown:FlxUIDropDownMenuCustom;
+	var charPositioningDropDown:FlxUIDropDownMenuCustom;
+	var check_boyfriendPosition:FlxUICheckBox;
 	function addSettingsUI() {
 		var tab_group = new FlxUI(null, UI_box);
 		tab_group.name = "Settings";
@@ -422,10 +428,16 @@ class CharacterEditorState extends MusicBeatState
 		{
 			char.isPlayer = !char.isPlayer;
 			char.flipX = !char.flipX;
+			charPositioning.isPlayer = !char.isPlayer;
+			charPositioning.flipX = !char.flipX;
 			updatePointerPos();
 			reloadBGs();
 			ghostChar.flipX = char.flipX;
 		};
+		
+		check_boyfriendPosition = new FlxUICheckBox(10, 75, null, null, "Position Guide", 100);
+		check_boyfriendPosition.checked = false;
+		check_boyfriendPosition.callback = function() {};
 
 		charDropDown = new FlxUIDropDownMenuCustom(10, 30, FlxUIDropDownMenuCustom.makeStrIdLabelArray([''], true), function(character:String)
 		{
@@ -435,6 +447,13 @@ class CharacterEditorState extends MusicBeatState
 			updatePresence();
 			reloadCharacterDropDown();
 		});
+		
+		charPositioningDropDown = new FlxUIDropDownMenuCustom(-150, 75, FlxUIDropDownMenuCustom.makeStrIdLabelArray([''], true), function(character:String)
+		{
+			daPositioningAnim = characterList[Std.parseInt(character)];
+			reloadPositioningChar(!check_player.checked);
+		});
+		
 		charDropDown.selectedLabel = daAnim;
 		reloadCharacterDropDown();
 
@@ -485,8 +504,10 @@ class CharacterEditorState extends MusicBeatState
 
 		tab_group.add(new FlxText(charDropDown.x, charDropDown.y - 18, 0, 'Character:'));
 		tab_group.add(check_player);
+		tab_group.add(check_boyfriendPosition);
 		tab_group.add(reloadCharacter);
 		tab_group.add(charDropDown);
+		tab_group.add(charPositioningDropDown);
 		tab_group.add(reloadCharacter);
 		tab_group.add(templateCharacter);
 		UI_box.addGroup(tab_group);
@@ -909,6 +930,22 @@ class CharacterEditorState extends MusicBeatState
 			textAnim.visible = false;
 		}
 	}
+	
+	function reloadPositioningChar (isDad:Bool) {
+		charPositioning.visible = false;
+		charPositioning.kill();
+		
+		charPositioning = new Character(0, 0, daPositioningAnim, !isDad);
+		if(charPositioning.animationsArray[0] != null) {
+			charPositioning.dance();
+		}
+		charPositioning.debugMode = true;
+		charPositioning.alpha = 0.6;
+		
+		charPositioning.setPosition(charPositioning.positionArray[0] + OFFSET_X + 100, charPositioning.positionArray[1]);
+		
+		charLayer.add(charPositioning);
+	}
 
 	function loadChar(isDad:Bool, blahBlahBlah:Bool = true) {
 		var i:Int = charLayer.members.length-1;
@@ -931,7 +968,7 @@ class CharacterEditorState extends MusicBeatState
 			char.playAnim(char.animationsArray[0].anim, true);
 		}
 		char.debugMode = true;
-
+		
 		charLayer.add(ghostChar);
 		charLayer.add(char);
 
@@ -952,6 +989,7 @@ class CharacterEditorState extends MusicBeatState
 		reloadCharacterOptions();
 		reloadBGs();
 		updatePointerPos();
+		reloadPositioningChar(isDad);
 	}
 
 	function updatePointerPos() {
@@ -1069,6 +1107,9 @@ class CharacterEditorState extends MusicBeatState
 
 		charDropDown.setData(FlxUIDropDownMenuCustom.makeStrIdLabelArray(characterList, true));
 		charDropDown.selectedLabel = daAnim;
+		
+		charPositioningDropDown.setData(FlxUIDropDownMenuCustom.makeStrIdLabelArray(characterList, true));
+		charPositioningDropDown.selectedLabel = daPositioningAnim;
 	}
 
 	function resetHealthBarColor() {
@@ -1216,6 +1257,7 @@ class CharacterEditorState extends MusicBeatState
 				}
 			}
 		}
+		charPositioning.visible = check_boyfriendPosition.checked;
 		//camMenu.zoom = FlxG.camera.zoom;
 		ghostChar.setPosition(char.x, char.y);
 		super.update(elapsed);

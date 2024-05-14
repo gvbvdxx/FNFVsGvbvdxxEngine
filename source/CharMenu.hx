@@ -31,14 +31,15 @@ import FreeplayState;
 class CharMenu extends MusicBeatState{
     var iconMULT:Int = Std.int(0.8);
     // Selectable Character Variables
-    var selectableCharacters:Array<String> = ['bf', 'MiniScratchGamer', 'playable-flipnote']; // Currently Selectable characters
-    var selectableCharactersNames:Array<String> = ['Default Character', 'Playable Mini Scratch Gamer (WIP)', 'Requested By johanmartinez']; // Characters names
-    var selectableCharactersColors:Array<FlxColor> = [0xFF00ABC5, 0xFF00ABC5, 0xFF00ABC5]; // The colors used for the background
-    //too lazy to grab a calculator
+    var selectableCharacters:Array<String> = ['bf', 'MiniScratchGamer', 'playable-flipnote', 'michael-playable']; // Currently Selectable characters
+    var selectableCharactersNames:Array<String> = ['Default Character', 'Playable Mini Scratch Gamer (WIP)', 'Requested By johanmartinez', 'Michael the hedgehog']; // Characters names
+    var selectableCharactersColors:Array<FlxColor> = [0xFF00ABC5, 0xFF00ABC5, 0xFF00ABC5, 0xFF00ABC5]; // The colors used for the background
+    //too lazy to grab a calculator, do trial and error here.
     var selectableCharactersOffsets:Array<Array<Int>> = [
         [10, 10],
-        [90, 50],
-        [86, 120]
+        [90, 60],
+        [86, 130],
+		[-85, -140]
     ]; // [x, y]
     
     // Unlockable characters
@@ -187,6 +188,11 @@ class CharMenu extends MusicBeatState{
             if (i == 2)
             {
                 characterImage.scale.set(2.5*0.8, 2.5*0.8);
+            }
+			//michael-playable Scaling
+            if (i == 3)
+            {
+                characterImage.scale.set(0.75*0.8, 0.75*0.8);
             }
             characterImage.screenCenter(XY);
             imageArray.push(characterImage);
@@ -438,6 +444,8 @@ class CharMenu extends MusicBeatState{
             icon.changeIcon('tankman');
         if (unlockedCharacters[curSelected] == 'MiniScratchGamer')
             icon.changeIcon('miniscratchgamer');
+		if (unlockedCharacters[curSelected] == 'michael-playable')
+            icon.changeIcon('gangathon-michael');
 
         icon.screenCenter(X);
         icon.setGraphicSize(-4);

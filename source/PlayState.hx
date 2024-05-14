@@ -339,6 +339,8 @@ class PlayState extends MusicBeatState
 	public static var lastCombo:FlxSprite;
 	// stores the last combo score objects in an array
 	public static var lastScore:Array<FlxSprite> = [];
+	
+	public static var overlayBGSprites:Array<FlxSprite> = [];
 
 	override public function create()
 	{
@@ -591,21 +593,21 @@ class PlayState extends MusicBeatState
 				stageFront.updateHitbox();
 				add(stageFront);
 				
-				var stageFrontB:BGSprite = new BGSprite('JasonMustSing', 150, -150, 1.5, 1.5);
-				stageFrontB.setGraphicSize(Std.int(stageFrontB.width * 1.5));
-				stageFrontB.updateHitbox();
-				add(stageFrontB);
-				
 				var stageFrontC:BGSprite = new BGSprite('WhenNoteHitSing', 150, -120, 0.7, 0.7);
 				stageFrontC.setGraphicSize(Std.int(stageFrontC.width * 0.7));
 				stageFrontC.updateHitbox();
 				add(stageFrontC);
 				
+				var stageFrontB:BGSprite = new BGSprite('JasonMustSing', 150, -150, 1.5, 1.5);
+				stageFrontB.setGraphicSize(Std.int(stageFrontB.width * 1.5));
+				stageFrontB.updateHitbox();
+				overlayBGSprites.push(stageFrontB);
+				
 				
 				var stageFrontD:BGSprite = new BGSprite('Created', 150, 800, 0.5, 0.5);
 				stageFrontD.setGraphicSize(Std.int(stageFrontD.width * 0.5));
 				stageFrontD.updateHitbox();
-				add(stageFrontD);
+				overlayBGSprites.push(stageFrontD);
 			
 			
 			
@@ -708,6 +710,10 @@ class PlayState extends MusicBeatState
 			//Just place the gui stuff over the characters,
 			//by adding the ScratchBG after the other groups
 			add(ScratchBG);
+		}
+		
+		for (spritething in overlayBGSprites) {
+			add(spritething);
 		}
 
 		switch(curStage)

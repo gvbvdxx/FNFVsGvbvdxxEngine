@@ -64,14 +64,36 @@
 			"anim": "griffpatch",
 			"fps": 17,
 			"name": "GriffpatchCommentsAreWeird",
-			"indices": [0,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2]
+			"indices": [
+				0,
+				1,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/eli",
 	"position": [
-		-390,
-		-190
+		-120,
+		-220
 	],
 	"healthicon": "eli",
 	"flip_x": false,

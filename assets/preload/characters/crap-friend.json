@@ -1,110 +1,110 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 16,
-			"name": "Idle",
-			"indices": []
+			"anim": "idle",
+			"indices": [],
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				30,
 				0
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 16,
-			"name": "Right",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-1,
 				11
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 16,
-			"name": "Left",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				126,
 				1
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 16,
-			"name": "Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				40,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singDOWN",
-			"fps": 16,
-			"name": "Down",
-			"indices": []
+			"indices": [],
+			"name": "Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singLEFTmiss",
-			"fps": 16,
-			"name": "YouMissed",
-			"indices": []
+			"indices": [],
+			"name": "YouMissed"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singRIGHTmiss",
-			"fps": 16,
-			"name": "YouMissed",
-			"indices": []
+			"indices": [],
+			"name": "YouMissed"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singUPmiss",
-			"fps": 16,
-			"name": "YouMissed",
-			"indices": []
+			"indices": [],
+			"name": "YouMissed"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singDOWNmiss",
+			"loop": false,
 			"fps": 16,
-			"name": "YouMissed",
-			"indices": []
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "YouMissed"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/crap-friend",
 	"position": [
-		-120,
-		-120
+		-80,
+		-100
 	],
 	"healthicon": "crap-friend",
 	"flip_x": false,
