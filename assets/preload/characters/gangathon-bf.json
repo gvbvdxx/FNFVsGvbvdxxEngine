@@ -1,153 +1,153 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				0
+				-5
 			],
-			"anim": "singUPMiss",
+			"loop": false,
 			"fps": 15,
-			"name": "UpFail",
-			"indices": []
+			"anim": "singUPMiss",
+			"indices": [],
+			"name": "UpFail"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				-1,
+				-11,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singRIGHT",
-			"fps": 16,
-			"name": "Right",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				4,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "idle",
-			"fps": 16,
-			"name": "Idle",
-			"indices": []
+			"indices": [],
+			"name": "Idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
+				-10,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singDOWN",
-			"fps": 16,
-			"name": "Down",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
-				0,
-				0
+				-8,
+				-1
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singUP",
-			"fps": 16,
-			"name": "Up",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singLEFT",
-			"fps": 16,
-			"name": "Left",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singLEFTMiss",
-			"fps": 16,
-			"name": "LeftFail",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "LeftFail"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singRIGHTMiss",
-			"fps": 16,
-			"name": "RightFail",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "RightFail"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singDOWNMiss",
-			"fps": 16,
-			"name": "DownFail",
 			"indices": [
 				0,
 				1
-			]
+			],
+			"name": "DownFail"
+		},
+		{
+			"offsets": [
+				6,
+				0
+			],
+			"loop": false,
+			"fps": 16,
+			"anim": "whatisthis",
+			"indices": [],
+			"name": "AHHHH"
 		},
 		{
 			"loop": false,
 			"offsets": [
-				0,
+				6,
 				0
 			],
-			"anim": "whatisthis",
+			"anim": "AAAA",
 			"fps": 16,
 			"name": "AHHHH",
 			"indices": []
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 16,
-			"anim": "AAAA",
-			"loop": false,
-			"name": "AHHHH"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gangathon-bf",
 	"position": [
-		-90,
-		180
+		-136,
+		213
 	],
 	"healthicon": "bf",
 	"flip_x": true,
@@ -161,5 +161,5 @@
 		0
 	],
 	"sing_duration": 6.1,
-	"scale": 0.6
+	"scale": 0.58
 }

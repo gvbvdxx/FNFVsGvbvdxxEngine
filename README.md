@@ -5,6 +5,12 @@ Play/View on gamebanana: https://gamebanana.com/mods/420378
 # Installation
 
 Find a FNF Compiling tutorial, then you got a build of FNF Vs gvbvdxx in your hands.
+Or just download the game, on the releases page.
+
+# HTML 5 Support!
+
+If your a FNF HTML5 port creator, I HIGHLY recommend you use this source code to build HTML5.
+Everything here is 100% compatible with HTML5 builds.
 
 # FNF Vs Gvbvdxx (Engine)
 Source code mod of Psych Engine - Designed for FNF Vs gvbvdxx

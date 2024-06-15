@@ -1,59 +1,65 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
+			"anim": "singLEFT",
 			"fps": 15,
+			"name": "segt v2 left",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 15,
+			"name": "segt v2 right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 15,
+			"name": "segt v2 up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 15,
+			"name": "segt v2 down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3,
+				0
+			],
+			"fps": 19,
 			"anim": "idle",
 			"loop": false,
 			"name": "segt v2 idle"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 15,
-			"anim": "singLEFT",
-			"loop": false,
-			"name": "segt v2 left"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 15,
-			"anim": "singRIGHT",
-			"loop": false,
-			"name": "segt v2 right"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 15,
-			"anim": "singUP",
-			"loop": false,
-			"name": "segt v2 up"
-		},
-		{
-			"offsets": [
-				0,
-				0
-			],
-			"indices": [],
-			"fps": 15,
-			"anim": "singDOWN",
-			"loop": false,
-			"name": "segt v2 down"
 		}
 	],
 	"no_antialiasing": false,

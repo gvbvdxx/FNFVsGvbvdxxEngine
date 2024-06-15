@@ -1,14 +1,10 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				-2,
 				0
 			],
-			"anim": "idle",
-			"fps": 15,
-			"name": "Tail bouncyidle",
 			"indices": [
 				0,
 				1,
@@ -16,7 +12,11 @@
 				3,
 				4,
 				0
-			]
+			],
+			"fps": 18,
+			"anim": "idle",
+			"loop": false,
+			"name": "Tail bouncyidle"
 		}
 	],
 	"no_antialiasing": false,

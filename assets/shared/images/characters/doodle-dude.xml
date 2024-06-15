@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="doodle-dude.png">
+	<SubTexture name="Idle0000" x="0" y="0" width="345" height="955" frameX="0" frameY="0" frameWidth="345" frameHeight="955" />
+	<SubTexture name="Left0000" x="348" y="0" width="495" height="950" frameX="90.30597337166895" frameY="-1.9055898729851606" frameWidth="495" frameHeight="950" />
+	<SubTexture name="Left0001" x="846" y="0" width="470" height="950" frameX="61.54698728154003" frameY="-2.3596545484276987" frameWidth="470" frameHeight="950" />
+	<SubTexture name="Right0000" x="1319" y="0" width="420" height="950" frameX="17.382823967447223" frameY="-2.147278131085457" frameWidth="420" frameHeight="950" />
+	<SubTexture name="Right0001" x="1742" y="0" width="385" height="950" frameX="19.570326907867894" frameY="-2.3596985571678886" frameWidth="385" frameHeight="950" />
+	<SubTexture name="Down0000" x="2130" y="0" width="420" height="895" frameX="23.018039453237975" frameY="-45.319161107852324" frameWidth="420" frameHeight="895" />
+	<SubTexture name="Down0001" x="2553" y="0" width="370" height="915" frameX="4.191521310814039" frameY="-25.333200819134873" frameWidth="370" frameHeight="915" />
+	<SubTexture name="Up0000" x="2926" y="0" width="350" height="980" frameX="0.9359691509635581" frameY="11.12585708568254" frameWidth="350" frameHeight="980" />
+	<SubTexture name="Up0001" x="3279" y="0" width="360" height="960" frameX="6.272576650030857" frameY="-4.443026552797917" frameWidth="360" frameHeight="960" />
+</TextureAtlas>

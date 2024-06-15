@@ -1,66 +1,71 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 13,
-			"name": "zombiedude4712-2 idle",
-			"indices": []
-		},
-		{
-			"loop": false,
-			"offsets": [
-				0,
-				0
-			],
 			"anim": "singUP",
-			"fps": 13,
-			"name": "zombiedude4712-2 up",
-			"indices": []
+			"indices": [],
+			"name": "zombiedude4712-2 up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 13,
 			"anim": "singDOWN",
-			"fps": 13,
-			"name": "zombiedude4712-2 down",
-			"indices": []
+			"indices": [],
+			"name": "zombiedude4712-2 down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 13,
 			"anim": "singLEFT",
-			"fps": 13,
-			"name": "zombiedude4712-2 left",
-			"indices": []
+			"indices": [],
+			"name": "zombiedude4712-2 left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 13,
-			"name": "zombiedude4712-2 right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "zombiedude4712-2 right"
+		},
+		{
+			"offsets": [
+				1,
+				0
+			],
+			"indices": [
+				0,
+				1,
+				2,
+				3
+			],
+			"fps": 14,
+			"anim": "idle",
+			"loop": false,
+			"name": "zombiedude4712-2 idle"
 		}
 	],
 	"no_antialiasing": true,
 	"image": "characters/zombiedude4712-2",
 	"position": [
 		0,
-		250
+		290
 	],
 	"healthicon": "zombiedude4712",
 	"flip_x": false,

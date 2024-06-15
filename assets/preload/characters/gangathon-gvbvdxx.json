@@ -1,79 +1,81 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "idle",
-			"fps": 16,
-			"name": "gvb-idle",
-			"indices": []
+			"indices": [],
+			"name": "gvb-idle"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singLEFT",
-			"fps": 16,
-			"name": "gvb-left",
-			"indices": []
+			"indices": [],
+			"name": "gvb-left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singRIGHT",
-			"fps": 16,
-			"name": "gvb-right",
-			"indices": []
+			"indices": [],
+			"name": "gvb-right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singUP",
-			"fps": 16,
-			"name": "gvb-up",
-			"indices": []
+			"indices": [],
+			"name": "gvb-up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
+			"loop": false,
+			"fps": 16,
 			"anim": "singDOWN",
-			"fps": 16,
-			"name": "gvb-down",
-			"indices": []
+			"indices": [],
+			"name": "gvb-down"
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [
-				0,0,0
-			],
-			"fps": 1,
 			"anim": "AAAA",
-			"loop": false,
-			"name": "gvb-AHH"
+			"fps": 1,
+			"name": "gvb-AHH",
+			"indices": [
+				0,
+				0,
+				0
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gangathon-gvbvdxx",
 	"position": [
 		-90,
-		210
+		270
 	],
 	"healthicon": "gvbvdxxy",
 	"flip_x": false,

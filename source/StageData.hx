@@ -12,6 +12,23 @@ import Song;
 
 using StringTools;
 
+//Gvbvdxx:
+//Add this here as well if your using the stage loader from json.
+
+typedef StageSpriteInfo = {
+	var path:String;
+
+	var posx:Float;
+	var posy:Float;
+
+	var factx:Float;
+	var facty:Float;
+
+	var scale:Float;
+
+	var overlay:Bool;
+};
+
 typedef StageFile = {
 	var directory:String;
 	var defaultZoom:Float;
@@ -26,6 +43,7 @@ typedef StageFile = {
 	var camera_opponent:Array<Float>;
 	var camera_girlfriend:Array<Float>;
 	var camera_speed:Null<Float>;
+	var background:Null<Array<StageSpriteInfo>>;
 }
 
 class StageData {

@@ -1,0 +1,82 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				-60,
+				-5
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Bendo-Goofy left"
+		},
+		{
+			"offsets": [
+				30,
+				0
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Bendo-Goofy right"
+		},
+		{
+			"offsets": [
+				0,
+				16
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "Bendo-Goofy down"
+		},
+		{
+			"offsets": [
+				-20,
+				-10
+			],
+			"indices": [],
+			"fps": 14,
+			"anim": "singUP",
+			"loop": false,
+			"name": "Bendo-Goofy up"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				2,
+				3,
+				0
+			],
+			"fps": 14,
+			"anim": "idle",
+			"loop": false,
+			"name": "Bendo-Goofy idle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Bendo-Goofy",
+	"position": [
+		-120,
+		-120
+	],
+	"healthicon": "icon-Bendo",
+	"flip_x": false,
+	"healthbar_colors": [
+		16,
+		124,
+		0
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 0.9
+}

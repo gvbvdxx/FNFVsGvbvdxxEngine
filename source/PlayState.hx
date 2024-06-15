@@ -340,7 +340,7 @@ class PlayState extends MusicBeatState
 	// stores the last combo score objects in an array
 	public static var lastScore:Array<FlxSprite> = [];
 	
-	public static var overlayBGSprites:Array<FlxSprite> = [];
+	public static var overlayBGSprites:Array<BGSprite> = [];
 
 	override public function create()
 	{
@@ -494,7 +494,10 @@ class PlayState extends MusicBeatState
 				camera_boyfriend: [0, 0],
 				camera_opponent: [0, 0],
 				camera_girlfriend: [0, 0],
-				camera_speed: 1
+				camera_speed: 1,
+				
+				//Gvbvdxx: If your copying and pasting stuff for JSON background loaders, this is for you here, make sure you also copy some code below and check all comments starting with "Gvbvdxx:".
+				background: null
 			};
 		}
 
@@ -669,6 +672,18 @@ class PlayState extends MusicBeatState
 				ScratchBG.updateHitbox();
 				//Add AFTER the character layers are added.
 				
+			//case 'elitorial-school':		
+			//	var staticbgpnglol:BGSprite = new BGSprite('elitorial/funny-school-shaded-large', -1000, -800, 1, 1);
+			//	staticbgpnglol.setGraphicSize(Std.int(staticbgpnglol.width * 1));
+			//	staticbgpnglol.updateHitbox();
+			//	add(staticbgpnglol);
+				
+			//case 'funny-real-based-jason':				
+			//	var staticbgpnglol:BGSprite = new BGSprite('funny-school', -1100, -500, 1, 1);
+			//	staticbgpnglol.setGraphicSize(Std.int(staticbgpnglol.width * 1));
+			//	staticbgpnglol.updateHitbox();
+			//	add(staticbgpnglol);
+				
 			case 'crapbackground':				
 				var crapsky:BGSprite = new BGSprite('crapbackground/crapsky', -780, -500, 0, 0);
 				crapsky.setGraphicSize(Std.int(crapsky.width * 5));
@@ -686,6 +701,30 @@ class PlayState extends MusicBeatState
 				add(crapblock);
 				
 		}
+		//Gvbvdxx: this allows for easy usage to add other sprites without code.
+		//This might be used for future me, making stages will be 5x or more easier to me.
+		//So now i don't have to translate lua into haxe code and stuff (so HTML5 compatibility will be easier).
+		//Requires editing "StageData.hx" and some other stuff.
+		if (stageData.background == null) {
+			//Do nothing lol.
+		} else {
+			//Gvbvdxx:
+			//I was gonna have two properties in the json file, one for the back end,
+			//and one for the overlay. But they are both combined when I wrote this code below.
+			//This way, its easier to switch one part to the overlay.
+			var stageDataBack:Array<StageSpriteInfo> = stageData.background;
+			for (bgspriteinfo in stageDataBack) {
+				var bgspritething:BGSprite = new BGSprite(bgspriteinfo.path, Math.round(bgspriteinfo.posx), Math.round(bgspriteinfo.posy), bgspriteinfo.factx, bgspriteinfo.facty);
+				bgspritething.setGraphicSize(Std.int(bgspritething.width * bgspriteinfo.scale));
+				bgspritething.updateHitbox();
+				if (bgspriteinfo.overlay == true) {
+					overlayBGSprites.push(bgspritething);
+				} else {
+					add(bgspritething);
+				}
+			}
+		}
+		
 
 		switch(Paths.formatToSongPath(SONG.song))
 		{
@@ -1003,7 +1042,7 @@ class PlayState extends MusicBeatState
 		scoreTxt.visible = !ClientPrefs.hideHud;
 		add(scoreTxt);
 
-		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "CHEATER!!!", 32);
+		botplayTxt = new FlxText(400, timeBarBG.y + 55, FlxG.width - 800, "AUTO", 32);
 		botplayTxt.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		botplayTxt.scrollFactor.set();
 		botplayTxt.borderSize = 1.25;
@@ -2126,7 +2165,7 @@ class PlayState extends MusicBeatState
 		+ (ratingName != '?' ? ' (${Highscore.floorDecimal(ratingPercent * 100, 2)}%) - $ratingFC' : '');
 		
 		if (botplayTxt.visible) {
-			scoreTxt.text += " | Cheater mode (botplay)";
+			scoreTxt.text += " | AUTO Mode";
 		}
 
 		if(ClientPrefs.scoreZoom && !miss && !cpuControlled)

@@ -39,7 +39,7 @@ class GameplayChangersSubstate extends MusicBeatSubstate
 
 	function getOptions()
 	{
-		var option:GameplayOption = new GameplayOption('Cheater Mode (Botplay)', 'botplay', 'bool', false);
+		var option:GameplayOption = new GameplayOption('AUTO Mode', 'botplay', 'bool', false);
 		optionsArray.push(option);
 		
 		#if !html5
