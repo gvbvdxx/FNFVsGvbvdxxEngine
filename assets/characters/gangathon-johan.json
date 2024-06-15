@@ -5,10 +5,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "danceRight",
-			"loop": false,
+			"indices": [],
 			"name": "IdleRight"
 		},
 		{
@@ -16,10 +16,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "danceLeft",
-			"loop": false,
+			"indices": [],
 			"name": "IdleLeft"
 		},
 		{
@@ -27,10 +27,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "singLEFT",
-			"loop": false,
+			"indices": [],
 			"name": "Left"
 		},
 		{
@@ -38,10 +38,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "singRIGHT",
-			"loop": false,
+			"indices": [],
 			"name": "Right"
 		},
 		{
@@ -49,10 +49,10 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "singUP",
-			"loop": false,
+			"indices": [],
 			"name": "Up"
 		},
 		{
@@ -60,18 +60,27 @@
 				0,
 				0
 			],
-			"indices": [],
+			"loop": false,
 			"fps": 16,
 			"anim": "singDOWN",
-			"loop": false,
+			"indices": [],
 			"name": "Down"
 		},
 		{
 			"offsets": [
-				0,
-				0
+				-10,
+				-10
 			],
-			"indices": [],
+			"indices": [
+				0,
+				0,
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
 			"fps": 2,
 			"anim": "hacker",
 			"loop": false,
@@ -81,8 +90,8 @@
 	"no_antialiasing": false,
 	"image": "characters/gangathon-johan",
 	"position": [
-		-120,
-		50
+		-10,
+		90
 	],
 	"healthicon": "gangathon-johan",
 	"flip_x": false,
@@ -96,5 +105,5 @@
 		0
 	],
 	"sing_duration": 6.1,
-	"scale": 1
+	"scale": 0.8
 }

@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 15,
 			"anim": "idle",
-			"indices": [],
-			"name": "idle"
+			"fps": 15,
+			"name": "idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-2,
 				1
 			],
-			"loop": false,
-			"fps": 14,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 14,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				6
 			],
-			"loop": false,
-			"fps": 14,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 14,
+			"name": "down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				6
 			],
-			"loop": false,
-			"fps": 14,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 14,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-20,
 				-1
 			],
-			"loop": false,
-			"fps": 14,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 14,
+			"name": "right",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/why-are-you-in-my-files",
 	"position": [
-		-360,
-		-70
+		-330,
+		-30
 	],
 	"healthicon": "he-knows-your-in-his-files",
 	"flip_x": false,

@@ -1,83 +1,83 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Left"
+			"fps": 16,
+			"name": "Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "idle",
-			"loop": false,
-			"name": "Idle"
+			"fps": 16,
+			"name": "Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Right"
+			"fps": 16,
+			"name": "Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Up"
+			"fps": 16,
+			"name": "Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
+			"anim": "AAAA",
+			"fps": 1,
+			"name": "AAAA",
 			"indices": [
 				0,
 				0,
 				0,
 				0,
 				0
-			],
-			"fps": 1,
-			"anim": "AAAA",
-			"loop": false,
-			"name": "AAAA"
+			]
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Down"
+			"fps": 16,
+			"name": "Down",
+			"indices": []
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gangathon-furball",
 	"position": [
 		-90,
-		180
+		230
 	],
 	"healthicon": "gangathon-furball",
 	"flip_x": false,

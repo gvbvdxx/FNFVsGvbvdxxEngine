@@ -1,0 +1,159 @@
+{
+	"animations": [
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "idle",
+			"fps": 17,
+			"name": "Idle",
+			"indices": [
+				1,
+				2,
+				3,
+				4,
+				5
+			]
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singUP",
+			"fps": 19,
+			"name": "Up",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singDOWN",
+			"fps": 19,
+			"name": "Down",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singRIGHT",
+			"fps": 19,
+			"name": "Right",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				0,
+				0
+			],
+			"anim": "singLEFT",
+			"fps": 19,
+			"name": "Left",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				1,
+				1,
+				1,
+				1,
+				1,
+				1
+			],
+			"fps": 7,
+			"anim": "singLEFTmiss",
+			"loop": false,
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				0,
+				0,
+				0,
+				0,
+				0,
+				0
+			],
+			"fps": 7,
+			"anim": "singRIGHTmiss",
+			"loop": false,
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				2,
+				2,
+				2,
+				2,
+				2,
+				2,
+				2
+			],
+			"fps": 7,
+			"anim": "singUPmiss",
+			"loop": false,
+			"name": "miss"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"fps": 7,
+			"anim": "singDOWNmiss",
+			"loop": false,
+			"name": "miss"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/funny-jason-bf",
+	"position": [
+		-200,
+		0
+	],
+	"healthicon": "funny-bf",
+	"flip_x": true,
+	"healthbar_colors": [
+		0,
+		140,
+		255
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

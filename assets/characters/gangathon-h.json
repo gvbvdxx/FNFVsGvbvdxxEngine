@@ -1,65 +1,69 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singLEFT",
-			"loop": false,
-			"name": "Left"
+			"fps": 16,
+			"name": "Left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singRIGHT",
-			"loop": false,
-			"name": "Right"
+			"fps": 16,
+			"name": "Right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singUP",
-			"loop": false,
-			"name": "Up"
+			"fps": 16,
+			"name": "Up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-1,
 				8
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "singDOWN",
-			"loop": false,
-			"name": "Down"
+			"fps": 16,
+			"name": "Down",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-3,
 				2
 			],
-			"indices": [],
-			"fps": 16,
 			"anim": "idle",
-			"loop": false,
-			"name": "Idle"
+			"fps": 16,
+			"name": "Idle",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				-5,
 				0
 			],
+			"anim": "AAAA",
+			"fps": 1,
+			"name": "AHHH",
 			"indices": [
 				0,
 				0,
@@ -68,18 +72,14 @@
 				0,
 				0,
 				0
-			],
-			"fps": 1,
-			"anim": "AAAA",
-			"loop": false,
-			"name": "AHHH"
+			]
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gangathon-h",
 	"position": [
 		-150,
-		-20
+		30
 	],
 	"healthicon": "gangathon-h",
 	"flip_x": false,

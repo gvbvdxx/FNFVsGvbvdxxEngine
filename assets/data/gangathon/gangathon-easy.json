@@ -1321,23 +1321,23 @@
 				"sectionNotes": [
 					[
 						40500,
-						1,
+						5,
 						0
 					],
 					[
 						40650,
-						3,
+						7,
 						0
 					],
 					[
 						40800,
-						2,
+						6,
 						1125
 					]
 				],
 				"lengthInSteps": 16,
 				"typeOfSection": 0,
-				"mustHitSection": true
+				"mustHitSection": false
 			},
 			{
 				"sectionNotes": [
@@ -8833,6 +8833,116 @@
 				"bpm": 190
 			},
 			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 190,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 190,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"sectionBeats": 4,
+				"altAnim": false,
+				"gfSection": false,
+				"bpm": 190,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 190
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 190
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 190
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 190
+			},
+			{
+				"sectionBeats": 4,
+				"sectionNotes": [],
+				"typeOfSection": 0,
+				"gfSection": false,
+				"altAnim": false,
+				"mustHitSection": true,
+				"changeBPM": false,
+				"bpm": 190
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 190,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 190,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
+				"gfSection": false,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 190,
+				"sectionBeats": 4,
+				"changeBPM": false,
+				"mustHitSection": true
+			},
+			{
 				"gfSection": false,
 				"altAnim": false,
 				"typeOfSection": 0,
@@ -9041,6 +9151,16 @@
 				]
 			],
 			[
+				40736.8421052632,
+				[
+					[
+						"Set Cam Zoom",
+						"1",
+						"0.8"
+					]
+				]
+			],
+			[
 				40815.7894736842,
 				[
 					[
@@ -9211,6 +9331,16 @@
 				]
 			],
 			[
+				43263.1578947368,
+				[
+					[
+						"Set Cam Zoom",
+						"0.75",
+						"0.8"
+					]
+				]
+			],
+			[
 				62526.3157894736,
 				[
 					[
@@ -9222,6 +9352,16 @@
 						"Change Character",
 						"1",
 						"gangathon-gvbvdxx"
+					]
+				]
+			],
+			[
+				83289.4736842104,
+				[
+					[
+						"Screen Shake",
+						"0.5,0.01",
+						"0.5,0.01"
 					]
 				]
 			],
@@ -9382,6 +9522,16 @@
 						"Play Animation",
 						"AAAA",
 						"dad"
+					]
+				]
+			],
+			[
+				88184.2105263157,
+				[
+					[
+						"Screen Shake",
+						"0.5,0.01",
+						"0.5,0.01"
 					]
 				]
 			],
@@ -9566,6 +9716,16 @@
 				]
 			],
 			[
+				205105.263157895,
+				[
+					[
+						"Screen Shake",
+						"0.5,0.02",
+						"0.5,0.02"
+					]
+				]
+			],
+			[
 				205184.210526316,
 				[
 					[
@@ -9716,6 +9876,16 @@
 				]
 			],
 			[
+				209921.05263158,
+				[
+					[
+						"Screen Shake",
+						"0.5,0.02",
+						"0.5,0.02"
+					]
+				]
+			],
+			[
 				210000.000000001,
 				[
 					[
@@ -9791,7 +9961,32 @@
 					[
 						"Change Character",
 						"1",
-						"gangathon-h"
+						"doodle-dude"
+					]
+				]
+			],
+			[
+				252000.000000001,
+				[
+					[
+						"Flash red",
+						"2",
+						""
+					],
+					[
+						"Set Cam Zoom",
+						"0.7",
+						"0.4"
+					]
+				]
+			],
+			[
+				271184.210526317,
+				[
+					[
+						"Change Character",
+						"1",
+						"just-air"
 					]
 				]
 			]
@@ -9801,8 +9996,8 @@
 		"needsVoices": true,
 		"sections": 0,
 		"validScore": true,
-		"stage": "scratch-gui",
-		"speed": 4,
+		"stage": "elitorial-school",
+		"speed": 3,
 		"bpm": 190
 	}
 }
