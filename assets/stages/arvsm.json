@@ -1,0 +1,224 @@
+{
+	"directory": "",
+	"defaultZoom": 0.8,
+	"isPixelStage": false,
+
+	"boyfriend": [500, 0],
+	"girlfriend": [0, 0],
+	"opponent": [-500, 0],
+	"hide_girlfriend": true,
+
+	"camera_boyfriend": [0, 0],
+	"camera_opponent": [0, 0],
+	"camera_girlfriend": [0, 0],
+	"camera_speed": 1,
+	
+	"background": [
+		{
+			"path": "aibosing/arvsm-bg",
+			
+			"posx": -1600,
+			"posy": -3500,
+			
+			"scale": 2.5,
+			
+			"factx": 0.6,
+			"facty": 0.6,
+			
+			"overlay": false,
+			
+			"eventableMapID":"arvsm"
+		},
+		{
+			"path": "aibosing/arvsm-ground",
+			
+			"posx": -1300,
+			"posy": 670,
+			
+			"scale": 1.5,
+			
+			"factx": 1,
+			"facty": 1,
+			
+			"overlay": false,
+			
+			"eventableMapID":"arvsm"
+		},
+		
+		
+		{
+			"path": "WhiteBG",
+			
+			"posx": -1500,
+			"posy": -1500,
+			
+			"scale": 8,
+			
+			"factx": 1,
+			"facty": 1,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		{
+			"path": "WhenNoteHitSing",
+			
+			"posx": -150,
+			"posy": 120,
+			
+			"scale": 0.7,
+			
+			"factx": 0.7,
+			"facty": 0.7,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		{
+			"path": "Created",
+			
+			"posx": 150,
+			"posy": 800,
+			
+			"scale": 0.5,
+			
+			"factx": 0.5,
+			"facty": 0.5,
+			
+			"overlay": true,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		{
+			"path": "JasonMustSing",
+			
+			"posx": 150,
+			"posy": -150,
+			
+			"scale": 1.5,
+			
+			"factx": 0.5,
+			"facty": 0.5,
+			
+			"overlay": true,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		
+		{
+			"path": "WhenNoteHitSing",
+			
+			"posx": -150,
+			"posy": 120,
+			
+			"scale": 0.7,
+			
+			"factx": 0.7,
+			"facty": 0.7,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		{
+			"path": "Created",
+			
+			"posx": 150,
+			"posy": 800,
+			
+			"scale": 0.5,
+			
+			"factx": 0.5,
+			"facty": 0.5,
+			
+			"overlay": true,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		{
+			"path": "JasonMustSing",
+			
+			"posx": 150,
+			"posy": -150,
+			
+			"scale": 1.5,
+			
+			"factx": 0.5,
+			"facty": 0.5,
+			
+			"overlay": true,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"makemesing"
+		},
+		
+		{
+			"path": "scratchgamebg",
+			
+			"posx": -900,
+			"posy": -900,
+			
+			"scale": 8,
+			
+			"factx": 0.3,
+			"facty": 0.3,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"gvbvdxx"
+		},
+		
+		{
+			"path": "scratchgameclouds",
+			
+			"posx": -900,
+			"posy": -900,
+			
+			"scale": 6,
+			
+			"factx": 0.4,
+			"facty": 0.4,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"gvbvdxx"
+		},
+		
+		{
+			"path": "scratchgametheme",
+			
+			"posx": -800,
+			"posy": 650,
+			
+			"scale": 3,
+			
+			"factx": 1,
+			"facty": 1,
+			
+			"overlay": false,
+			
+			"alpha": 0,
+			
+			"eventableMapID":"gvbvdxx"
+		}
+	]
+}

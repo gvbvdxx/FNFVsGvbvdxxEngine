@@ -1,58 +1,57 @@
 {
 	"animations": [
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "singRIGHT",
+			"loop": false,
 			"fps": 17,
-			"name": "Right",
-			"indices": []
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Right"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-60,
 				0
 			],
-			"anim": "singLEFT",
+			"loop": false,
 			"fps": 17,
-			"name": "Left",
-			"indices": []
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Left"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-33,
 				0
 			],
-			"anim": "singUP",
+			"loop": false,
 			"fps": 17,
-			"name": "Up",
-			"indices": []
+			"anim": "singUP",
+			"indices": [],
+			"name": "Up"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				-41,
 				0
 			],
-			"anim": "singDOWN",
+			"loop": false,
 			"fps": 17,
-			"name": "Down",
-			"indices": []
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Down"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "You like kissing boys don't you?",
+			"loop": false,
 			"fps": 15,
-			"name": "youlike",
+			"anim": "You like kissing boys don't you?",
 			"indices": [
 				0,
 				1,
@@ -70,17 +69,17 @@
 				3,
 				3,
 				3
-			]
+			],
+			"name": "youlike"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "bonk",
+			"loop": false,
 			"fps": 22,
-			"name": "BONK",
+			"anim": "bonk",
 			"indices": [
 				0,
 				1,
@@ -119,31 +118,58 @@
 				7,
 				7,
 				7
-			]
+			],
+			"name": "BONK"
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
 				0
 			],
-			"anim": "idle",
+			"loop": false,
 			"fps": 17,
-			"name": "Idle",
+			"anim": "idle",
 			"indices": [
 				0,
 				1,
 				2,
 				3,
 				0
-			]
+			],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-28,
+				-10
+			],
+			"indices": [
+				0,
+				1,
+				1,
+				2,
+				2,
+				2,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3,
+				3
+			],
+			"fps": 20,
+			"anim": "certified",
+			"loop": false,
+			"name": "Certified"
 		}
 	],
-	"no_antialiasing": true,
+	"no_antialiasing": false,
 	"image": "characters/boykisser-new",
 	"position": [
-		-280,
-		-160
+		-160,
+		-20
 	],
 	"healthicon": "boykisser-new",
 	"flip_x": false,

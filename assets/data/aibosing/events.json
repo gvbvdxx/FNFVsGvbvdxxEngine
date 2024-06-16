@@ -1,0 +1,156 @@
+{
+	"song": {
+		"events": [
+			[
+				0,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				115.384615384615,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				230.769230769231,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				346.153846153846,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				461.538461538462,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				576.923076923077,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				692.307692307692,
+				[
+					[
+						"Play Animation",
+						"singLEFTmiss",
+						"bf"
+					]
+				]
+			],
+			[
+				807.692307692308,
+				[
+					[
+						"Change Character",
+						"",
+						"bf"
+					]
+				]
+			],
+			[
+				33000,
+				[
+					[
+						"Change Character",
+						"1",
+						"sing-jason"
+					],
+					[
+						"Set BG Eventable map alpha",
+						"arvsm",
+						"0"
+					],
+					[
+						"Set BG Eventable map alpha",
+						"makemesing",
+						"1"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				36923.0769230769,
+				[
+					[
+						"Flash white",
+						"1",
+						""
+					]
+				]
+			],
+			[
+				61615.3846153846,
+				[
+					[
+						"Change Character",
+						"1",
+						"gvbvdxxyv3"
+					],
+					[
+						"Flash white",
+						"1",
+						""
+					],
+					[
+						"Set BG Eventable map alpha",
+						"makemesing",
+						"0"
+					],
+					[
+						"Set BG Eventable map alpha",
+						"gvbvdxx",
+						"1"
+					]
+				]
+			],
+			[
+				77538.4615384615,
+				[
+					[
+						"Flash white",
+						"2.5",
+						""
+					]
+				]
+			]
+		]
+	}
+}

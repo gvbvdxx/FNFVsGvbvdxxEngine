@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "sj",
+			"speed": 0.05,
+			"portrait": "singjason",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Make me sing!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bap...... (What is this, dude, or more like child? I think I came to the wrong place.)"
+		},
+		{
+			"sound": "sj",
+			"speed": 0.005,
+			"portrait": "singjason",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "AAAAAAAAAAAAAAAAAAAAAAAAA (Goofy singing noises)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Beep. (This is so weird, but at the same time kinda cool.)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "pissed",
+			"text": "Beep! (Bring it on, let me see what you got!)"
+		}
+	]
+}

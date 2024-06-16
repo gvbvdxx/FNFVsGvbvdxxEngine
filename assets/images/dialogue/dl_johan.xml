@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="dl_johan.png">
+	<SubTexture name="speak0000" x="0" y="0" width="210" height="402" frameX="0" frameY="0" frameWidth="210" frameHeight="402" />
+	<SubTexture name="speak0001" x="213" y="0" width="210" height="402" frameX="0" frameY="0" frameWidth="210" frameHeight="402" />
+	<SubTexture name="speak0002" x="426" y="0" width="207" height="396" frameX="-4.0938602534795905" frameY="-3.525733555981006" frameWidth="207" frameHeight="396" />
+	<SubTexture name="speak0003" x="636" y="0" width="207" height="396" frameX="-4.0938602534795905" frameY="-3.525733555981006" frameWidth="207" frameHeight="396" />
+	<SubTexture name="speak0004" x="846" y="0" width="207" height="393" frameX="-3.4560731041868564" frameY="-6.163241627599547" frameWidth="207" frameHeight="393" />
+	<SubTexture name="speak0005" x="1056" y="0" width="207" height="393" frameX="-3.4560731041868564" frameY="-6.163241627599547" frameWidth="207" frameHeight="393" />
+	<SubTexture name="idle0000" x="1266" y="0" width="207" height="393" frameX="-3.4560731041868564" frameY="-6.163241627599547" frameWidth="207" frameHeight="393" />
+</TextureAtlas>
