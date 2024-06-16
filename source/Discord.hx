@@ -15,7 +15,6 @@ class DiscordClient
 	public static var isInitialized:Bool = false;
 	public function new()
 	{
-		trace("Discord Client starting...");
 		DiscordRpc.start({
 			clientID: "863222024192262205",
 			onReady: onReady,
@@ -28,7 +27,6 @@ class DiscordClient
 		{
 			DiscordRpc.process();
 			sleep(2);
-			//trace("Discord Client Update");
 		}
 
 		DiscordRpc.shutdown();
@@ -51,12 +49,10 @@ class DiscordClient
 
 	static function onError(_code:Int, _message:String)
 	{
-		trace('Error! $_code : $_message');
 	}
 
 	static function onDisconnected(_code:Int, _message:String)
 	{
-		trace('Disconnected! $_code : $_message');
 	}
 
 	public static function initialize()

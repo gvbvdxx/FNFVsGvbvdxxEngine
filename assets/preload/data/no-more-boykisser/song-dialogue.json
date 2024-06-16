@@ -1,0 +1,76 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "Beep",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "uh",
+			"text": "Oooh.... You like kissing boys, don't you?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boykisser"
+		},
+		{
+			"expression": "confused",
+			"text": "Bap. (bro what the heck)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "pissed",
+			"text": "Beep (Lets rap battle! Bring it on!)",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "shocked",
+			"text": "A RAP BATTLE?!?}!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.025,
+			"portrait": "boykisser"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "boykisser",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "I'VE NEVER DONE THAT!!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "boop? (You don't know what a rap battle is?)"
+		},
+		{
+			"sound": "",
+			"speed": 0.00500000000000001,
+			"portrait": "boykisser",
+			"boxState": "normal",
+			"expression": "shocked",
+			"text": "WHAT IS A RAP BATTLE?!?!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "bap... (Let's just sing....)"
+		}
+	]
+}

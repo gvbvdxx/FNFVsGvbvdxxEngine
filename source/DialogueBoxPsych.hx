@@ -523,6 +523,10 @@ class DialogueBoxPsych extends FlxSpriteGroup
 		#end
 		return cast Json.parse(Assets.getText(path));
 	}
+	
+	public static function parseDialogueFromRawJSON(rawjson:String):DialogueFile {
+		return cast Json.parse(rawjson);
+	}
 
 	public static function updateBoxOffsets(box:FlxSprite) { //Had to make it static because of the editors
 		box.centerOffsets();

@@ -1,0 +1,44 @@
+{
+	"dialogue": [
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Welcome everyone!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Today we are going to play some gvbvdxx classics togheter!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf",
+			"boxState": "normal",
+			"expression": "confused",
+			"text": "Bap.... (Not this ugly looking singer dude is going to be in front of me again)"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "And we are gonna have fun!"
+		},
+		{
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "ar",
+			"boxState": "normal",
+			"expression": "talk",
+			"text": "Get yourselfs ready as we sing the best song you will ever hear!"
+		}
+	]
+}

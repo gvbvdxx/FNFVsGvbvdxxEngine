@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="di_boykisser.png">
+	<SubTexture name="idle normal0000" x="0" y="0" width="1040" height="1040" frameX="0" frameY="0" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle normal0001" x="1043" y="0" width="1040" height="1040" frameX="0" frameY="2.8421709430404007e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle normal0002" x="2086" y="0" width="1040" height="1040" frameX="0" frameY="4.263256414560601e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle normal0003" x="3129" y="0" width="1040" height="1040" frameX="0" frameY="5.684341886080801e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle normal0004" x="4172" y="0" width="1040" height="1040" frameX="0" frameY="2.8421709430404007e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle normal0005" x="5215" y="0" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk normal0000" x="6258" y="0" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk normal0001" x="7301" y="0" width="1040" height="1040" frameX="0" frameY="2.8421709430404007e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk normal0002" x="8344" y="0" width="1040" height="1040" frameX="0" frameY="5.684341886080801e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk normal0003" x="9387" y="0" width="1040" height="1040" frameX="0" frameY="7.105427357601002e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk uh0000" x="10430" y="0" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk uh0001" x="0" y="1043" width="1040" height="1040" frameX="0" frameY="5.684341886080801e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk uh0002" x="1043" y="1043" width="1040" height="1040" frameX="0" frameY="7.105427357601002e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk uh0003" x="2086" y="1043" width="1040" height="1040" frameX="0" frameY="9.947598300641403e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idleuh0000" x="3129" y="1043" width="1040" height="1040" frameX="0" frameY="8.526512829121202e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle uh0000" x="4172" y="1043" width="1040" height="1040" frameX="0" frameY="9.947598300641403e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle uh0001" x="5215" y="1043" width="1040" height="1040" frameX="0" frameY="1.1368683772161603e-12" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle uh0002" x="6258" y="1043" width="1040" height="1040" frameX="0" frameY="9.947598300641403e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle uh0003" x="7301" y="1043" width="1040" height="1040" frameX="0" frameY="9.947598300641403e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk shocked0000" x="8344" y="1043" width="1040" height="1040" frameX="0" frameY="2.8421709430404007e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk shocked0001" x="9387" y="1043" width="1040" height="1040" frameX="0" frameY="8.526512829121202e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="talk shocked0002" x="10430" y="1043" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle shocked0000" x="0" y="2086" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle shocked0001" x="1043" y="2086" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle shocked0002" x="2086" y="2086" width="1040" height="1040" frameX="0" frameY="2.8421709430404007e-13" frameWidth="1040" frameHeight="1040" />
+	<SubTexture name="idle shocked0003" x="3129" y="2086" width="1040" height="1040" frameX="0" frameY="1.4210854715202004e-13" frameWidth="1040" frameHeight="1040" />
+</TextureAtlas>

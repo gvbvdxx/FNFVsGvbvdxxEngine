@@ -340,7 +340,12 @@ class PlayState extends MusicBeatState
 	// stores the last combo score objects in an array
 	public static var lastScore:Array<FlxSprite> = [];
 	
+	//Gvbvdxx: Required for overlay backgrounds.
 	public static var overlayBGSprites:Array<BGSprite> = [];
+	//Gvbvdxx: Required for show and hide layer events.
+	public static var BgSpriteLayers:Array<BGSprite> = [];
+	//Gvbvdxx: New easier way for show and hide layer events, (compatible with the original ones still).
+	public var BgSpriteMaps:Map<String,Array<BGSprite>> = new Map<String,Array<BGSprite>>();
 
 	override public function create()
 	{
@@ -712,11 +717,48 @@ class PlayState extends MusicBeatState
 			//I was gonna have two properties in the json file, one for the back end,
 			//and one for the overlay. But they are both combined when I wrote this code below.
 			//This way, its easier to switch one part to the overlay.
+			//Gvbvdxx: Get stage data's background property.
 			var stageDataBack:Array<StageSpriteInfo> = stageData.background;
+			//Gvbvdxx: Reset eventable stage data:
+			BgSpriteLayers = [];
+			//Gvbvdxx: Same as above, but for maps version of eventable stage data.
+			BgSpriteMaps = new Map<String,Array<BGSprite>>();
+			//Gvbvdxx: Load background:
 			for (bgspriteinfo in stageDataBack) {
 				var bgspritething:BGSprite = new BGSprite(bgspriteinfo.path, Math.round(bgspriteinfo.posx), Math.round(bgspriteinfo.posy), bgspriteinfo.factx, bgspriteinfo.facty);
 				bgspritething.setGraphicSize(Std.int(bgspritething.width * bgspriteinfo.scale));
 				bgspritething.updateHitbox();
+				
+				//Gvbvdxx: New feature, mid game switching "isEventable" property, this allows to set alphas or anything else as well too.
+				if (bgspriteinfo.isEventable == true) {
+					BgSpriteLayers.push(bgspritething);
+				}
+				
+				if (bgspriteinfo.alpha == null) {
+					//Do nothing, no alpha value provided.
+				} else {
+					bgspritething.alpha = bgspriteinfo.alpha;
+				}
+				
+				if (bgspriteinfo.angle == null) {
+					//Do nothing, no angle value provided.
+				} else {
+					bgspritething.angle = bgspriteinfo.angle;
+				}
+				
+				if (bgspriteinfo.eventableMapID == null) {
+					//Do nothing, no layerID value provided.
+				} else {
+					var bgsprarray:Array<BGSprite> = [];
+					if (BgSpriteMaps[bgspriteinfo.eventableMapID] == null) {
+						BgSpriteMaps[bgspriteinfo.eventableMapID] = bgsprarray;
+					} else {
+						bgsprarray = BgSpriteMaps[bgspriteinfo.eventableMapID];
+					}
+					
+					bgsprarray.push(bgspritething);
+				}
+				
 				if (bgspriteinfo.overlay == true) {
 					overlayBGSprites.push(bgspritething);
 				} else {
@@ -1123,8 +1165,75 @@ class PlayState extends MusicBeatState
 			}
 		}
 		#end
-
 		var daSong:String = Paths.formatToSongPath(curSong);
+		var dialogFileFound:Bool = false;
+		var dialogMusicFound:Bool = false;
+		var dialogueRawJSON:String = "";
+		try {
+			var path:String = Paths.getPreloadPath('data/' + daSong + '/song-dialogue.json');
+
+			#if MODS_ALLOWED
+			var modPath:String = Paths.modFolders('data/' + daSong + '/song-dialogue.json');
+			if(FileSystem.exists(modPath)) {
+				dialogueRawJSON = File.getContent(modPath);
+				dialogFileFound = true;
+			} else if(FileSystem.exists(path)) {
+				dialogueRawJSON = File.getContent(path);
+				dialogFileFound = true;
+			}
+			#else
+			if(Assets.exists(path)) {
+				dialogueRawJSON = Assets.getText(path);
+				dialogFileFound = true;
+			}
+			#end
+			else
+			{
+				dialogFileFound = false;
+			}
+			
+			var path:String = Paths.getPreloadPath('music/di_' + daSong + '.ogg');
+			var path2:String = Paths.getPreloadPath('music/di_' + daSong + '.mp3');
+			var path3:String = Paths.getPreloadPath('music/di_' + daSong);
+
+			#if MODS_ALLOWED
+			var modPath:String = Paths.modFolders('music/di_' + daSong + '.ogg');
+			var modPath2:String = Paths.modFolders('music/di_' + daSong);
+			if(FileSystem.exists(modPath)) {
+				dialogMusicFound = true;
+			} else if(FileSystem.exists(modPath2)) {
+				dialogMusicFound = true;
+			} else if(FileSystem.exists(path)) {
+				dialogMusicFound = true;
+			} else if(FileSystem.exists(path2)) {
+				dialogMusicFound = true;
+			} else if(FileSystem.exists(path3)) {
+				dialogMusicFound = true;
+			}
+			#else
+			if(Assets.exists(path)) {
+				dialogMusicFound = true;
+			}
+			if(Assets.exists(path2)) {
+				dialogMusicFound = true;
+			}
+			if(Assets.exists(path3)) {
+				dialogMusicFound = true;
+			}
+			#end
+			else
+			{
+				dialogMusicFound = false;
+			}
+		} catch(e) {
+			trace("===========================================================");
+			trace("Ran into an error when trying to find out if dialog exists.");
+			trace(e);
+			trace("===========================================================");
+			dialogFileFound = false;
+			dialogMusicFound = false;
+		}
+		
 		if (isStoryMode && !seenCutscene)
 		{
 			switch (daSong)
@@ -1185,12 +1294,23 @@ class PlayState extends MusicBeatState
 				case 'senpai' | 'roses' | 'thorns':
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);
-
+					
+					
 				case 'ugh' | 'guns' | 'stress':
 					tankIntro();
-
+					
 				default:
-					startCountdown();
+					if (dialogFileFound) {
+						var dialogueData:DialogueFile = DialogueBoxPsych.parseDialogueFromRawJSON(dialogueRawJSON);
+						if (dialogMusicFound) {
+							startDialogue(dialogueData,'di_' + daSong);
+						} else {
+							startDialogue(dialogueData);
+						}
+					} else {
+						startCountdown();
+					}
+					
 			}
 			seenCutscene = true;
 		}
@@ -2723,11 +2843,12 @@ class PlayState extends MusicBeatState
 		callOnLuas('onUpdate', [elapsed]);
 		/*Goofy ahh modcharts*/
 		elapsedCounterThing += elapsed;
-		if (modchartID == 0) {/*No modchart*/
+		if (modchartID == 0) {/*No modchart, or switched back to nothing.*/
 			for (note in strumLineNotes) {
 				note.angle = 0;
 				note.y = strumLine.y;
 			}
+			camHUD.angle = 0;
 		}
 		if (modchartID == 1) {/*Spin + Float = Rotate HUD modchart*/
 			var noteIndex:Int = 0;
@@ -2739,7 +2860,7 @@ class PlayState extends MusicBeatState
 				note.y += (notey - note.y) / 15;
 			}
 			var camHUDAngle:Float = Math.sin((elapsedCounterThing)*2)*1.2;
-			camHUD.angle += (camHUDAngle - camHUD.angle) / 15;
+			//camHUD.angle += (camHUDAngle - camHUD.angle) / 20*elapsed;
 		}
 
 		switch (curStage)
@@ -3712,6 +3833,99 @@ class PlayState extends MusicBeatState
 				
 				FlxTween.tween(camHUD, {alpha: val1}, val2 / playbackRate, {ease: FlxEase.sineInOut});
 				
+			case 'Set BG Eventable Layer alpha': //Gvbvdxx: Support for stage "layer" events.
+			
+				var val1:Int = Std.parseInt(value1);
+				var val2:Float = Std.parseFloat(value2);
+				
+				if (Math.isNaN(val2)) {
+					val2 = 1;
+				}
+				
+				if (Math.isNaN(val1)) {
+					//Nothing.
+				} else {
+					var bgspr:BGSprite = BgSpriteLayers[val1];
+					if (bgspr == null) {
+						//Nothing here too!
+					} else {
+						//Seems safe now.
+						bgspr.alpha = val2;
+					}
+				}
+				
+			case 'Set BG Eventable Layer alpha (Tween)': //Gvbvdxx: Same as above, but with tweening the alpha instead.
+			
+				var val1:Int = Std.parseInt(value1);
+				var alphatoset:Float = Std.parseFloat(value2.split(',')[0]);
+				var lengthoftween:Float = Std.parseFloat(value2.split(',')[1]);
+				
+				if (Math.isNaN(alphatoset)) {
+					alphatoset = 1;
+				}
+				if (Math.isNaN(lengthoftween)) {
+					lengthoftween = 0.01;
+				}
+				
+				if (Math.isNaN(val1)) {
+					//Nothing.
+				} else {
+					var bgspr:BGSprite = BgSpriteLayers[val1];
+					if (bgspr == null) {
+						//Nothing here too!
+					} else {
+						//Seems safe now.
+						FlxTween.tween(bgspr, {alpha: alphatoset}, lengthoftween / playbackRate, {ease: FlxEase.sineInOut, onComplete:
+							function (twn:FlxTween)
+							{
+								bgspr.alpha = alphatoset;
+							}
+						});
+					}
+				}
+				
+			case 'Set BG Eventable map alpha': //Gvbvdxx: Same as above but for maps version.
+				
+				var val2:Float = Std.parseFloat(value2);
+				
+				if (Math.isNaN(val2)) {
+					val2 = 1;
+				}
+				var bgsprs:Null<Array<BGSprite>> = BgSpriteMaps[value1];
+				if (bgsprs == null) {
+					//Do nothing here
+				} else {
+					//Go though each bg sprite and set the alpha to the requested one.
+					for (bgspr in bgsprs) {
+						bgspr.alpha = val2;
+					}
+				}
+				
+			case 'Set BG Eventable map alpha (Tween)': //Gvbvdxx: Same as above, but with tweening the alpha instead.
+				var alphatoset:Float = Std.parseFloat(value2.split(',')[0]);
+				var lengthoftween:Float = Std.parseFloat(value2.split(',')[1]);
+				
+				if (Math.isNaN(alphatoset)) {
+					alphatoset = 1;
+				}
+				if (Math.isNaN(lengthoftween)) {
+					lengthoftween = 0.01;
+				}
+				
+				var bgsprs:Null<Array<BGSprite>> = BgSpriteMaps[value1];
+				if (bgsprs == null) {
+					//Do nothing here
+				} else {
+					//Go though each bg sprite and trigger a tween for each of them.
+					for (bgspr in bgsprs) {
+						FlxTween.tween(bgspr, {alpha: alphatoset}, lengthoftween / playbackRate, {ease: FlxEase.sineInOut, onComplete:
+							function (twn:FlxTween)
+							{
+								bgspr.alpha = alphatoset;
+							}
+						});
+					}
+				}
 				
 			case 'Set Hud Zoom':
 				var val1:Float = Std.parseFloat(value1);

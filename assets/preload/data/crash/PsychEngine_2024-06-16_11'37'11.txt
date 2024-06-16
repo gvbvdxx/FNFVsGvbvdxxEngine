@@ -1,0 +1,15 @@
+C:\HaxeToolkit\haxe\std/cpp/_std/sys/io/File.hx (line 30)
+DialogueBoxPsych.hx (line 103)
+DialogueBoxPsych.hx (line 82)
+editors/DialogueEditorState.hx (line 68)
+flixel/FlxGame.hx (line 637)
+flixel/FlxGame.hx (line 724)
+flixel/FlxGame.hx (line 677)
+flixel/FlxGame.hx (line 551)
+openfl/events/EventDispatcher.hx (line 444)
+openfl/display/DisplayObject.hx (line 1400)
+
+Uncaught Error: [file_contents,assets/images/dialogue/bf.json]
+Please report this error to the GitHub page: https://github.com/ShadowMario/FNF-PsychEngine
+
+> Crash Handler written by: sqirra-rng

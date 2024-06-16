@@ -2124,7 +2124,7 @@
 		"song": "singingpro",
 		"validScore": true,
 		"needsVoices": true,
-		"stage": "White",
+		"stage": "sing-jason-bg",
 		"sections": 0,
 		"bpm": 206,
 		"speed": 2.50000000000002

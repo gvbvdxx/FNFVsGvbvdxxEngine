@@ -1,66 +1,66 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				-10,
 				0
 			],
-			"loop": false,
-			"fps": 17,
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "right"
+			"fps": 17,
+			"name": "right",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				35,
 				0
 			],
-			"loop": false,
-			"fps": 17,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "left"
+			"fps": 17,
+			"name": "left",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				43,
 				6
 			],
-			"loop": false,
-			"fps": 17,
 			"anim": "singUP",
-			"indices": [],
-			"name": "up"
+			"fps": 17,
+			"name": "up",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
 				0,
 				13
 			],
-			"loop": false,
-			"fps": 17,
 			"anim": "singDOWN",
-			"indices": [],
-			"name": "down"
+			"fps": 17,
+			"name": "down",
+			"indices": []
 		},
 		{
 			"offsets": [
 				0,
 				0
 			],
-			"loop": false,
-			"fps": 17,
-			"anim": "idle",
 			"indices": [],
+			"fps": 21,
+			"anim": "idle",
+			"loop": false,
 			"name": "idle"
 		}
 	],
 	"no_antialiasing": false,
 	"image": "characters/gvbvdxxyv3",
 	"position": [
-		80,
-		320
+		70,
+		370
 	],
 	"healthicon": "gvbvdxxy",
 	"flip_x": false,

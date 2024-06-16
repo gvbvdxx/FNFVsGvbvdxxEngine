@@ -107,7 +107,11 @@ class ChartingState extends MusicBeatState
 		['Set Hud Zoom', "Sets the HUD's zoom.\nValue 1: Zoom to set hud to."],
 		['Set Hud Alpha', "Sets the HUD's alpha.\nValue 1: Alpha to set hud to.\nValue 2: Seconds for the alpha transition."],
 		['Enable camera focusing', "Enables the camera movement based on the \"Must Hit Section\".\nThis is default.\nNo values are required!"],
-		['Disable camera focusing', "Disables the camera movement based on the \"Must Hit Section\".\nNo values are required!"]
+		['Disable camera focusing', "Disables the camera movement based on the \"Must Hit Section\".\nNo values are required!"],
+		['Set BG Eventable Layer alpha', "This is for stages, using the FNF VS Gvbvdxx 16.5 format.\nOlder compatibility (hardcoded) backgrounds will not support this.\nValue 1: Layer ID (depends on the order of the isEventable values set on the background)\nValue 2: Alpha to set to."],
+		['Set BG Eventable Layer alpha (Tween)', "Same as the one before this event in the list,\nbut with tweening.\nValue 1: Layer ID\nValue 2: Alpha to set to,\nand the tween time separated by a comma (no spaces)."],
+		['Set BG Eventable map alpha', "This is for stages, using the FNF VS Gvbvdxx 16.5 format.\nOlder compatibility (hardcoded) backgrounds will not support this.\nValue 1: BGMap ID (depends on the order of the isEventable values set on the background)\nValue 2: Alpha to set to."],
+		['Set BG Eventable map alpha (Tween)', "Same as the one before this event in the list,\nbut with tweening.\nValue 1: BGMap ID\nValue 2: Alpha to set to,\nand the tween time separated by a comma (no spaces)."]
 	];
 
 	var _file:FileReference;
@@ -1324,7 +1328,7 @@ class ChartingState extends MusicBeatState
 			}
 		};
 
-		playSoundBf = new FlxUICheckBox(check_mute_inst.x, check_mute_vocals.y + 30, null, null, 'Play Sound (Boyfriend notes)', 100,
+		playSoundBf = new FlxUICheckBox(check_mute_inst.x, check_mute_vocals.y + 30, null, null, 'Tick Sound (Boyfriend notes)', 100,
 			function() {
 				FlxG.save.data.chart_playSoundBf = playSoundBf.checked;
 			}
@@ -1332,7 +1336,7 @@ class ChartingState extends MusicBeatState
 		if (FlxG.save.data.chart_playSoundBf == null) FlxG.save.data.chart_playSoundBf = false;
 		playSoundBf.checked = FlxG.save.data.chart_playSoundBf;
 
-		playSoundDad = new FlxUICheckBox(check_mute_inst.x + 120, playSoundBf.y, null, null, 'Play Sound (Opponent notes)', 100,
+		playSoundDad = new FlxUICheckBox(check_mute_inst.x + 120, playSoundBf.y, null, null, 'Tick Sound (Opponent notes)', 100,
 			function() {
 				FlxG.save.data.chart_playSoundDad = playSoundDad.checked;
 			}

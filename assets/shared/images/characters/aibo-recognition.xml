@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TextureAtlas imagePath="aibo-recognition.png">
+	<SubTexture name="dance0000" x="0" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="dance0001" x="907" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="dance0002" x="1814" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="dance0003" x="2721" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="dance0004" x="3628" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="left0000" x="4535" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="left0001" x="5442" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="left0002" x="6349" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="right0000" x="7256" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="right0001" x="8163" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="right0002" x="9070" y="0" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="up0000" x="0" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="up0001" x="907" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="up0002" x="1814" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="down0000" x="2721" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="down0001" x="3628" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+	<SubTexture name="down0002" x="4535" y="659" width="904" height="656" frameX="0" frameY="0" frameWidth="904" frameHeight="656" />
+</TextureAtlas>

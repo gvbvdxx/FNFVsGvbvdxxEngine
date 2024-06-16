@@ -20,6 +20,8 @@ typedef StageSpriteInfo = {
 
 	var posx:Float;
 	var posy:Float;
+	
+	var angle:Null<Float>;
 
 	var factx:Float;
 	var facty:Float;
@@ -27,6 +29,12 @@ typedef StageSpriteInfo = {
 	var scale:Float;
 
 	var overlay:Bool;
+	
+	var alpha:Null<Float>;
+	
+	var isEventable:Bool;
+	
+	var eventableMapID:String;
 };
 
 typedef StageFile = {

@@ -1,0 +1,60 @@
+{
+	"dialogue": [
+		{
+			"expression": "talk",
+			"text": "HEY YOU!",
+			"boxState": "angry",
+			"sound": "",
+			"speed": 0.065,
+			"portrait": "johan"
+		},
+		{
+			"expression": "talk",
+			"text": "Bep?",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "You aren't supposed to be here, this is where I put my (sussy) deleted projects!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.04,
+			"portrait": "johan"
+		},
+		{
+			"expression": "talk",
+			"text": "Beep!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		},
+		{
+			"expression": "talk",
+			"text": "A rap battle?... I guess.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "johan"
+		},
+		{
+			"expression": "talk",
+			"text": "But if you lose, YOU GET OUT!",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "johan"
+		},
+		{
+			"expression": "talk",
+			"text": "Bap.",
+			"boxState": "normal",
+			"sound": "",
+			"speed": 0.05,
+			"portrait": "bf"
+		}
+	]
+}

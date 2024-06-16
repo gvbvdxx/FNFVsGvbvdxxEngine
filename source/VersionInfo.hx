@@ -4,6 +4,6 @@ class VersionInfo
 {
 	public var version:String;
 	public function new() {
-		version = "16";
+		version = "16.5";
 	}
 }
